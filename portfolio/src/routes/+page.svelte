@@ -1,6 +1,7 @@
 <script>
-  import Headers from "./component/Headers.svelte";
-  import Hero from "./component/Hero.svelte";
+	import About from "./component/About.svelte";
+	import Headers from "./component/Headers.svelte";
+	import Hero from "./component/Hero.svelte";
 
 </script>
 
@@ -13,7 +14,8 @@
 <img class="stain1" src="src/lib/images/stain/stain1.png" alt="stain"/>
 
 <section>
-	<Hero />	
+	<Hero />
+	<About />	
 </section>
 <style lang="scss">
 	.background{
@@ -26,5 +28,12 @@
 		position: absolute;
 		z-index: -1;
 		height: 40vw;
+	}
+	section{
+		display: flex;
+		flex-direction: column;
+		gap: 40vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
 	}
 </style>

@@ -17,7 +17,7 @@
 <style lang="scss" >
     .title{
         z-index: -1;
-        margin-left: 50vw;
+        margin-left: 47vw;
         transform: translateX(-50%);
         padding-top: 35vh;
         display: flex;
@@ -44,7 +44,7 @@
     .stain2{
         position: absolute;
         right: 0;
-        height: 100vw;
+        top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
     }
