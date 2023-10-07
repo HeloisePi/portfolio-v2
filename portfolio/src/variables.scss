@@ -1,1 +1,54 @@
-/* Variables and mixins declared here will be available in all other SCSS files */
+//      COLOR
+
+$violet: #E8D7FF; 
+$green: #EEFFD7;
+$blue: #3300FF;
+$darkViolet: #BD00FF;
+$grey: #E8E8E8;
+
+//      FONT FAMILY
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(/src/assets/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(/src/assets/Montserrat-Regular.ttf);
+}
+
+$ffMontserratMedium : 'Montserrat-Medium';
+$ffMontserratRegular : 'Montserrat-Regular';
+//      FONT STYLE & STYLE 
+
+h1{
+    font-family: $ffMontserratMedium;
+    //font-size: 6rem;
+    font-size: 9.2vw;
+}
+
+h2{
+    font-family: $ffMontserratRegular;
+    font-size: 4rem;
+}
+
+h3{
+    font-family: $ffMontserratMedium ;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-family: $ffMontserratRegular ;
+    font-size: 1.5rem;
+}
+
+h5{
+    font-family: $ffMontserratRegular ;
+    font-size: 0.875rem;
+}
+
+p{
+    font-family: $ffMontserratRegular ;
+    font-size: 1.25rem;
+}
