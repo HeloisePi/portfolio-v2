@@ -19,19 +19,20 @@
 
 <style lang="scss" >
     .header{
+        z-index: 2;
         position: fixed;
         top: 0;
         width: 100vw;
         height: 70px;
-        padding-left: 6.25rem;
-        padding-right: 6.25rem;
+        padding-left: 4vw;
+        padding-right: 4vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         .link{
             display: flex;
-            gap: 1rem;
+            gap: 2rem;
 
             
         }
@@ -42,6 +43,7 @@
     }
 
     .blur{
+        z-index: 01;
         position: fixed;
         top: 0;
         width: 100vw;

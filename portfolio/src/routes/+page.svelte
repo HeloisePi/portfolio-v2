@@ -1,5 +1,6 @@
 <script>
   import Headers from "./component/Headers.svelte";
+  import Hero from "./component/Hero.svelte";
 
 </script>
 
@@ -8,15 +9,22 @@
 	<meta name="description" content="Project" />
 </svelte:head>
 <Headers />
+<img class="background" src="src/lib/images/background.png" alt="background"/>
+<img class="stain1" src="src/lib/images/stain/stain1.png" alt="stain"/>
 
 <section>
-	<h1>Portfolio</h1>
-	<p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		Mollitia unde, minus veritatis numquam a aperiam, rem sit culpa, 
-		sed ad iste porro asperiores 
-		nam expedita totam laborum distinctio facilis deleniti.</p>
-		
+	<Hero />	
 </section>
-
 <style lang="scss">
+	.background{
+		position: absolute;
+		top: 0%;
+		width: 100vw;
+	}
+
+	.stain1{
+		position: absolute;
+		z-index: -1;
+		height: 40vw;
+	}
 </style>
