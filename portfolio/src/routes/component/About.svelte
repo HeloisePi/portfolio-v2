@@ -41,7 +41,7 @@
                 z-index: -6;
             }
             .picture{
-                width: 30vw;
+                width: 25vw;
             }
         }
 
