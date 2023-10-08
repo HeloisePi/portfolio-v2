@@ -4,6 +4,8 @@
 	import Headers from "./component/Headers.svelte";
 	import Hero from "./component/Hero.svelte";
   	import Professionalex from "./component/Professionalex.svelte";
+  import Project from "./component/Project.svelte";
+  import Tag from "./component/Tag.svelte";
 
 
 </script>
@@ -38,6 +40,32 @@
 		 pour une vente de vin visant à collecter des fonds pour une fondation."
 		 />
 		 <img class="stain5" src="/src/lib/images/stain/stain5.png" alt="stain">
+	</div>
+	<div class="projects">
+		<h3>Mes projects</h3>
+		<Project 
+		title ="Bild"
+		imgSrc ="src/lib/images/project/bild.png"
+    	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
+		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+     	techno ="Svelte, Tailwind, Ts, Js"
+    	projectSrc ="https://bild.ptitdom.fr/"
+    	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
+		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
+		title ="Animation front-end"
+		imgSrc ="src/lib/images/project/animation.png"
+    	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
+		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+     	techno ="Astro, Scss, Gsap"
+    	projectSrc ="https://challengethrive.netlify.app/"
+    	githubSrc= "https://github.com/HeloisePi/challenge">
+		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+
 	</div>
 	<Contact />
 </section>
@@ -86,5 +114,11 @@
 		left: 0;
 		transform: translateY(-40vh);
 		height: 90vh;
+	}
+
+	.projects{
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
 	}
 </style>

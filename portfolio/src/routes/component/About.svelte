@@ -57,7 +57,7 @@
         .about {
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr;
-            justify-self: center;
+            justify-items: center;
 
             .portrait{
                 .picture{
