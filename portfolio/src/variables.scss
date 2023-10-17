@@ -52,3 +52,9 @@ p{
     font-family: $ffMontserratRegular ;
     font-size: 1.25rem;
 }
+
+a{
+    &:hover{
+        text-decoration: underline;
+    }
+}

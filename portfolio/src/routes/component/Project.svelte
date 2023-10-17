@@ -37,8 +37,9 @@
         .titleTag{
             padding-left: 2vw;
             padding-right: 2vw;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             border-bottom: 1px solid black;
-            height: 3rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -46,6 +47,8 @@
             .tags{
                 display: flex;
                 gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: end;
             }
         }
         .imgDescription{
@@ -76,6 +79,10 @@
 
         }
     }
+    a{
+        color: #3300FF;
+    }
+
 
     @media screen and (max-width: 650px) {  
         .contenaire .imgDescription {
@@ -87,5 +94,6 @@
                 width: 80%;
             }
         }
+
     }
 </style>

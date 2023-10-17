@@ -4,8 +4,8 @@
 <div class="about">
     <div class="portrait">
         <h3>Qui suis-je ? </h3>
-        <img class="picture" src="src/lib/images/portrait.png" alt="Protrait">
-        <img class="stain3" src="src/lib/images/stain/stain3.png" alt="">
+        <img class="picture" src="images/portrait.png" alt="Protrait">
+        <img class="stain3" src="images/stain/stain3.png" alt="Stain">
     </div>
     <div class="description">
         <p>Salut ! Moi c’est Héloïse. <br> 

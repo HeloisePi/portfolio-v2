@@ -1,11 +1,11 @@
 <script>
-	import About from "./component/About.svelte";
-  import Contact from "./component/Contact.svelte";
-	import Headers from "./component/Headers.svelte";
 	import Hero from "./component/Hero.svelte";
+	import About from "./component/About.svelte";
+  	import Contact from "./component/Contact.svelte";
+	  import Headers from "./component/Headers.svelte";
+	  import Project from "./component/Project.svelte";
   	import Professionalex from "./component/Professionalex.svelte";
-  import Project from "./component/Project.svelte";
-  import Tag from "./component/Tag.svelte";
+  	import Tag from "./component/Tag.svelte";
 
 
 </script>
@@ -15,9 +15,7 @@
 	<meta name="description" content="Project" />
 </svelte:head>
 <Headers />
-<img class="background" src="src/lib/images/background.png" alt="background"/>
-<img class="background2" src="src/lib/images/background.png" alt="background"/>
-<img class="stain1" src="src/lib/images/stain/stain1.png" alt="stain"/>
+<img class="stain1" src="images/stain/stain1.png" alt="stain"/>
 <section>
 	<Hero />
 	<About />
@@ -31,7 +29,7 @@
 		sur smartphone pour une entreprise 
 		dans le BTP, tout en rédigeant sa documentation complète."
 		/>
-		<img class="stain4" src="/src/lib/images/stain/stain4.png" alt="stain">
+		<img class="stain4" src="images/stain/stain4.png" alt="stain">
 		<Professionalex
 		company="Fondation John Bost"
 		date="(2018)"
@@ -39,24 +37,24 @@
 		description="J'ai conçu une affiche promotionnelle
 		 pour une vente de vin visant à collecter des fonds pour une fondation."
 		 />
-		 <img class="stain5" src="/src/lib/images/stain/stain5.png" alt="stain">
+		 <img class="stain5" src="images/stain/stain5.png" alt="stain">
 	</div>
-	<div class="projects">
+	<div class="projects" id="projects">
 		<h3>Mes projects</h3>
 		<Project 
 		title ="Bild"
-		imgSrc ="src/lib/images/project/bild.png"
+		imgSrc ="images/project/bild.png"
     	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
 		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
      	techno ="Svelte, Tailwind, Ts, Js"
     	projectSrc ="https://bild.ptitdom.fr/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
-		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #BD00FF text="Design "/>
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
 	<Project 
 		title ="Animation front-end"
-		imgSrc ="src/lib/images/project/animation.png"
+		imgSrc ="images/project/animation.png"
     	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
 		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
      	techno ="Astro, Scss, Gsap"
@@ -64,6 +62,19 @@
     	githubSrc= "https://github.com/HeloisePi/challenge">
 		<Tag color = #BD00FF text="Design " ></Tag>
 		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+
+	<Project 
+		title ="Hors Champs"
+		imgSrc ="images/project/horsChamps.png"
+    	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
+		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+     	techno ="Astro, Scss"
+    	projectSrc ="https://alapoursuiteduchat.netlify.app/"
+    	githubSrc= "https://github.com/HeloisePi/Hors-Champs---">
+		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #FAFFBF text="Audio Visuel " ></Tag>
 	</Project>
 
 	</div>

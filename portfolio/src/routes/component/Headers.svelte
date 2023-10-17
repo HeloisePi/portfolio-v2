@@ -3,17 +3,20 @@
 
 <div class="blur"></div>
 <div class="header">
-    <h3>PINGITORE Héloïse</h3>
+    <a href="#" class="title"><h3>PINGITORE Héloïse</h3></a>
     <div class="link">
-        <h4>
+        <a href="#projects"><h4>
             Project
         </h4>
-        <h4>
+    </a>
+        <a href="#contacts"><h4>
             Contact
         </h4>
-        <h4>
+    </a>
+        <a href="/cv/HéloïsePingitore.pdf"><h4>
             Curriculum Vitae
         </h4>
+    </a>
     </div>
 </div>
 
@@ -38,6 +41,16 @@
         }
     }
 
+    .title{
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    a{
+        color: black;
+    }
+
     h4, h3{
         text-wrap: nowrap;
     }
@@ -55,4 +68,26 @@
         filter: blur(10px);
         backdrop-filter: blur(10px);
     }
+
+    @media screen and (max-width: 660px) {
+        .header{
+            padding-top: 0.5rem;
+            padding-top: 0.5rem;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        h4{
+            font-size: 15px;
+        }
+    }
+    
+
+    
+
+
+      
+    
+  
 </style>

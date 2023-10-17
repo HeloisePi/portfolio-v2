@@ -4,7 +4,7 @@
 <div class="title">
     <div class="portfolio">
         <h1 class="p">P</h1>
-        <img class="o" src="src/lib/images/o.svg" alt="o">
+        <img class="o" src="images/o.svg" alt="o">
         <h1>rtfolio</h1>
     </div>
     <h2>
@@ -12,7 +12,7 @@
     </h2>
 </div>
 
-<img class="stain2" src="src/lib/images/stain/stain2.png" alt="stain" :>
+<img class="stain2" src="images/stain/stain2.png" alt="stain" :>
 
 <style lang="scss" >
     .title{

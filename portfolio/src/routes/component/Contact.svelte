@@ -1,24 +1,24 @@
 <script></script>
-<div class="contacts" >
+<div class="contacts"  id="contacts">
     <h3>Contact</h3>
     <p class="sentence">Horem ipsum dolor sit amet, consectetur adipiscing elit.
      Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
      <div class="allContact">
         <div class="contact">
-            <img src="src/lib/images/logo/phone.svg" alt="phone">
+            <img src="images/logo/phone.svg" alt="phone">
             <p>07 82 77 44 42</p>
         </div>
         <div class="contact">
-            <img src="src/lib/images/logo/mail.svg" alt="mail">
+            <img src="images/logo/mail.svg" alt="mail">
             <p>heloise.pingitore@mmibordeaux.com</p>
         </div>
         <div class="contact">
-            <img src="src/lib/images/logo/github.svg" alt="github">
-            <a href="#"><p>HeloisePi</p></a>
+            <img src="images/logo/github.svg" alt="github">
+            <a href="https://github.com/HeloisePi"><p>HeloisePi > </p></a>
         </div>
         <div class="contact">
-            <img src="src/lib/images/logo/linkedin.svg" alt="linkedin">
-            <a href="#"><p>Héloïse P</p></a>
+            <img src="images/logo/linkedin.svg" alt="linkedin">
+            <a href="https://www.linkedin.com/in/heloise-p-2b8539252/"><p>Héloïse P > </p></a>
         </div>
      </div>
 </div>
@@ -48,6 +48,9 @@
         display: flex;
         align-items: center;
         gap: 2rem;
+    }
+    a{
+        color: black;
     }
 
     @media screen and (max-width: 650px) {
