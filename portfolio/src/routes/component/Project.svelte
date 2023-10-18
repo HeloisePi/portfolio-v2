@@ -22,7 +22,7 @@
             <div class="technoLink">
                 <p>Technologie utilisé : {techno}</p>
                 <a href="{projectSrc}"><p>Voir le projet > </p></a>
-                <a href="{githubSrc}"><p>lien vers le Github > </p></a>
+                <a href="{githubSrc}"><p>Lien vers le Github > </p></a>
             </div>
         </div>
     </div>

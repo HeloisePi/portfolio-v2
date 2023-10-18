@@ -2,7 +2,6 @@
 	import Hero from "./component/Hero.svelte";
 	import About from "./component/About.svelte";
   	import Contact from "./component/Contact.svelte";
-	  import Headers from "./component/Headers.svelte";
 	  import Project from "./component/Project.svelte";
   	import Professionalex from "./component/Professionalex.svelte";
   	import Tag from "./component/Tag.svelte";
@@ -14,7 +13,7 @@
 	<title>Héloïse Pingitore</title>
 	<meta name="description" content="Project" />
 </svelte:head>
-<Headers />
+
 <img class="stain1" src="images/stain/stain1.png" alt="stain"/>
 <section>
 	<Hero />
@@ -44,8 +43,9 @@
 		<Project 
 		title ="Bild"
 		imgSrc ="images/project/bild.png"
-    	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    	description ="Dans le cadre d'un projet de ma formation, avec mon groupe, 
+		j'ai eu l'opportunité d'aider une association nommée PtitDom. Pour cela,
+		 j'ai numérisé un jeu de cartes destiné aux enfants de l'association."
      	techno ="Svelte, Tailwind, Ts, Js"
     	projectSrc ="https://bild.ptitdom.fr/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
@@ -55,16 +55,40 @@
 	<Project 
 		title ="Animation front-end"
 		imgSrc ="images/project/animation.png"
-    	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    	description ="On m'a lancé le défi de refaire un portfolio en moins d'une semaine.
+		 J'ai réussi ce défi, malgré quelques heures de sommeil en moins."
      	techno ="Astro, Scss, Gsap"
     	projectSrc ="https://challengethrive.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/challenge">
 		<Tag color = #BD00FF text="Design " ></Tag>
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
-
 	<Project 
+		title ="Interactive Card"
+		imgSrc ="images/project/card.png"
+    	description ="Pour m'entraîner, j'ai décidé de relever un défi sur MentorChallenge.
+		 Cela m'a permis de mieux comprendre 
+		JavaScript et d'apprendre à organiser mon code de manière plus efficace."
+     	techno ="html, css, JS"
+    	projectSrc ="interactive-card-heloisepi.netlify.app/"
+    	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
+		title ="Refonte Musée de L'imprimerie"
+		imgSrc ="images/project/musee.png"
+    	description ="Voici mon premier site web crée lors d’un travail 
+		de groupe. Où nous devions faire une refonte d’un
+		 site web déjà existant, ici le site du musée et atelier de 
+		 l’imprimerie de Nantes."
+     	techno ="Html, Css, JS"
+    	projectSrc ="https://vrai-musee-imprimerie-nantes.netlify.app/"
+    	githubSrc= "https://github.com/Safirl/imprimerie">
+		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+
+	<!--<Project 
 		title ="Hors Champs"
 		imgSrc ="images/project/horsChamps.png"
     	description ="Horem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -75,7 +99,7 @@
 		<Tag color = #BD00FF text="Design " ></Tag>
 		<Tag color = #3300FF text="Développement " ></Tag>
 		<Tag color = #FAFFBF text="Audio Visuel " ></Tag>
-	</Project>
+	</Project> -->
 
 	</div>
 	<Contact />

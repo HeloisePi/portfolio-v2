@@ -1,16 +1,18 @@
 <script></script>
 <div class="contacts"  id="contacts">
     <h3>Contact</h3>
-    <p class="sentence">Horem ipsum dolor sit amet, consectetur adipiscing elit.
-     Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+    <p class="sentence">Si mon profil vous intéresse, n'hésitez pas à me contacter. On peut
+         en discuter tranquillement autour d'un café virtuel ou
+        bien de manière informelle.</p>
      <div class="allContact">
         <div class="contact">
             <img src="images/logo/phone.svg" alt="phone">
-            <p>07 82 77 44 42</p>
+            <a href="tel:+33782774442"><p>07 82 77 44 42</p></a>
         </div>
         <div class="contact">
             <img src="images/logo/mail.svg" alt="mail">
-            <p>heloise.pingitore@mmibordeaux.com</p>
+            <a href="mailto:heloise.pingitore@mmibordeaux.com"><p>heloise.pingitore@mmibordeaux.com</p></a>
+            
         </div>
         <div class="contact">
             <img src="images/logo/github.svg" alt="github">

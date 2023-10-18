@@ -1,8 +1,9 @@
 <script>
   import "../app.scss";
+  import Headers from "./component/Headers.svelte";
   import "./styles.css";
 </script>
-
+  <Headers />
 <div class="app">
 
 

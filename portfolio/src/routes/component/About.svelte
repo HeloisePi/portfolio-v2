@@ -10,9 +10,9 @@
     <div class="description">
         <p>Salut ! Moi c’est Héloïse. <br> 
             Je suis étudiante en But des Métiers du Multimédia et de l'Internet. 
-            Et je suis en recherche d’alternance dans le développement web.</p>
+            Et je suis à la recherche d'une alternance dans le développement web.</p>
         
-        <p>J’aime le développement web, le dessin, le violon, l’escalade. On dit de moi
+        <p>J’aime le dessin, le violon, l’escalade. On dit de moi
              que je suis sérieuse, curieuse et créative. </p>
         <p>
             Mes outils que j’utilise en programmation : <br>
