@@ -70,7 +70,7 @@
 		 Cela m'a permis de mieux comprendre 
 		JavaScript et d'apprendre à organiser mon code de manière plus efficace."
      	techno ="html, css, JS"
-    	projectSrc ="interactive-card-heloisepi.netlify.app/"
+    	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>

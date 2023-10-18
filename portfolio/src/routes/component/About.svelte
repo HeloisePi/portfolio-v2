@@ -36,8 +36,8 @@
 
             .stain3{
                 position: absolute;
-                transform: translate(-48vw, -4vw);
-                width: 70%;
+                transform: translate(-40vw, -3vw);
+                width: 55%;
                 z-index: -6;
             }
             .picture{
