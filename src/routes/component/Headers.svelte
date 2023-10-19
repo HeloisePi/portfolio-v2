@@ -72,7 +72,7 @@
     @media screen and (max-width: 660px) {
         .header{
             padding-top: 0.5rem;
-            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
             flex-direction: column;
             align-items: center;
         }
