@@ -13,7 +13,7 @@
             Contact
         </h4>
     </a>
-        <a href="HéloïsePingitore.pdf"><h4>
+        <a href="HeloisePingitore.pdf"><h4>
             Curriculum Vitae
         </h4>
     </a>
