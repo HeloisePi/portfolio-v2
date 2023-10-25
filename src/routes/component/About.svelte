@@ -16,7 +16,7 @@
              que je suis sérieuse, curieuse et créative. </p>
         <p>
             Mes outils que j’utilise en programmation : <br>
-            Svelte, Astro, Tailwin, Scss
+            Svelte, React, Astro, Tailwin, Scss
         </p>
     </div>
 </div>
