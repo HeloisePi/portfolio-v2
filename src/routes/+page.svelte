@@ -39,7 +39,7 @@
 		 <img class="stain5" src="images/stain/stain5.png" alt="stain">
 	</div>
 	<div class="projects" id="projects">
-		<h3>Mes projects</h3>
+		<h3>Mes projets</h3>
 		<Project 
 		title ="Bild"
 		imgSrc ="images/project/bild.png"
