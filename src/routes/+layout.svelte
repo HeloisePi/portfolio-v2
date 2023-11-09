@@ -13,7 +13,7 @@
 
   <footer>
     <p>
-      © 2023 Héloïse Pingitore - Tout droit réservés
+      © 2023 Héloïse Pingitore - Tous droits réservés
     </p>
   </footer>
 </div>
