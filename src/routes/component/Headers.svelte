@@ -1,13 +1,13 @@
 <script>
+
 </script>
 
 <div class="blur"></div>
 <div class="header">
     <a href="#" class="title"><h3>PINGITORE Héloïse</h3></a>
     <div class="link">
-        <a href="#projects"><h4>
-            Project
-        </h4>
+        <a href="#projects">
+            <h4>Projet</h4>
     </a>
         <a href="#contacts"><h4>
             Contact

@@ -6,6 +6,44 @@
     export let projectSrc;
     export let githubSrc;
 
+    let constrain = 100;
+    let imgProjectContainer;
+
+  function transforms(x, y, imgProject) {
+    let calcX = -(y - imgProject.top - (imgProject.height / 2)) / constrain;
+    let calcY = (x - imgProject.left - (imgProject.width / 2)) / constrain;
+    return "perspective(150px) " +
+        "rotateX(" + calcX + "deg) " +
+        "rotateY(" + calcY + "deg) ";
+  }
+
+  function transformElement(el, xyEl) {
+    let x = xyEl[0];
+    let y = xyEl[1];
+    let imgProject = xyEl[2];
+
+    el.style.transform = transforms(x, y, imgProject);
+  }
+
+  let handleMouseMove = (e) => {
+    let xy = [e.clientX, e.clientY];
+    let imgProject = imgProjectContainer.getBoundingClientRect();
+    let position = xy.concat([imgProject]);
+
+    window.requestAnimationFrame(() => {
+      transformElement(imgProjectContainer, position);
+    });
+  };
+
+  let handleMouseLeave = () => {
+    // Réinitialiser la transformation lorsque la souris quitte imgProjectContainer
+    console.log('patrique')
+    imgProjectContainer.style.transform = "rotateX(0) rotateY(0)";
+
+    
+}
+
+  
 </script>
 
 <div class="contenaire">
@@ -16,7 +54,7 @@
         </div>
     </div>
     <div class="imgDescription">
-        <a class="imgProject" href="{projectSrc}"><img src="{imgSrc}" alt="Project"></a>
+        <a class="imgProject" href="{projectSrc}" bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave}><img src="{imgSrc}" alt="Project"></a>
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
@@ -27,6 +65,7 @@
         </div>
     </div>
 </div>
+
 
 <style lang="scss">
     
