@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="imgDescription">
-        <img src="{imgSrc}" alt="Project">
+        <a class="imgProject" href="{projectSrc}"><img src="{imgSrc}" alt="Project"></a>
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
@@ -29,6 +29,7 @@
 </div>
 
 <style lang="scss">
+    
     .contenaire{
         border: 1px solid black;
         border-radius: 10px;
@@ -55,6 +56,13 @@
             display: grid;
             grid-template-columns: 50% 50%;
             padding: 2vw;
+
+            .imgProject:hover{
+                 transform: scale(105%);
+            }
+            .imgProject{
+                transition: 500ms;
+            }
 
             img{
                 border: 1px solid black;
@@ -84,14 +92,16 @@
     }
 
 
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 1300px) {  
         .contenaire .imgDescription {
             grid-template-columns: 1fr;
             grid-template-rows: 1/5fr 1fr;
             justify-items: center;
 
             img{
-                width: 80%;
+                width: 20rem;
+                margin-bottom: 2rem;
+                margin-top: 1rem;
             }
         }
 

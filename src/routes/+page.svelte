@@ -43,9 +43,9 @@
 		<Project 
 		title ="Bild"
 		imgSrc ="images/project/bild.png"
-    	description ="Dans le cadre d'un projet de ma formation, avec mon groupe, 
-		j'ai eu l'opportunité d'aider une association nommée PtitDom. Pour cela,
-		 j'ai numérisé un jeu de cartes destiné aux enfants de l'association."
+    	description ="Au cours de ma formation, j'ai eu l'occasion de collaborer avec PtitDOm, une association dédiée au soutien des enfants atteints de Troubles du Spectre Autistique (TSA). J'ai contribué à la création d'une application web visant à simplifier et numériser les jeux d'images utilisés dans l'approche A.B.A. (Analyse Comportementale Appliquée). L'objectif était de faciliter l'apprentissage du vocabulaire et de renforcer la communication.
+		Au cours de ce projet de deux semaines, j'ai joué un rôle clé en intégrant et en participant à la conception de la maquette à l'aide des technologies Svelte et Tailwind. Les choix d'outils étaient orientés vers la simplicité d'utilisation, permettant ainsi d'accélérer le développement du projet. 
+		"
      	techno ="Svelte, Tailwind, Ts, Js"
     	projectSrc ="https://bild.ptitdom.fr/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
@@ -55,8 +55,7 @@
 	<Project 
 		title ="Animation front-end"
 		imgSrc ="images/project/animation.png"
-    	description ="On m'a lancé le défi de refaire un portfolio en moins d'une semaine.
-		 J'ai réussi ce défi, malgré quelques heures de sommeil en moins."
+    	description ="On m'a lancé le défi coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
      	techno ="Astro, Scss, Gsap"
     	projectSrc ="https://challengethrive.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/challenge">
@@ -66,9 +65,7 @@
 	<Project 
 		title ="Interactive Card"
 		imgSrc ="images/project/card.png"
-    	description ="Pour m'entraîner, j'ai décidé de relever un défi sur MentorChallenge.
-		 Cela m'a permis de mieux comprendre 
-		JavaScript et d'apprendre à organiser mon code de manière plus efficace."
+    	description ="Par pur esprit d'auto-apprentissage, j'ai choisi de relever un défi sur MentorChallenge. Cette expérience m'a offert une opportunité précieuse pour approfondir ma compréhension de JavaScript et affiner mes compétences en matière d'organisation de code. Guidé par les enseignements du livre 'Coder proprement' de Robert C. Martin, j'ai revu et optimisé les noms de mes variables, classes et fonctions, entre autres. En repensant la structure de mes fonctions, j'ai créé une organisation plus efficace, me permettant ainsi d'ajouter ou de supprimer des fonctionnalités avec une flexibilité accrue."
      	techno ="Html, Css, JS"
     	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
@@ -77,10 +74,7 @@
 	<Project 
 		title ="Refonte Musée de L'imprimerie"
 		imgSrc ="images/project/musee.png"
-    	description ="Voici mon premier site web crée lors d’un travail 
-		de groupe. Où nous devions faire une refonte d’un
-		 site web déjà existant, ici le site du musée et atelier de 
-		 l’imprimerie de Nantes."
+    	description ="Voici mon tout premier site web, fruit d'une collaboration au sein d'un groupe de 4 personnes, visant la refonte d'un site de musée. Cette expérience m'a permis d'acquérir les fondamentaux du HTML, du CSS, et même du JavaScript. En outre, j'ai pu explorer les subtilités du responsive design en utilisant les media queries, élargissant ainsi mes compétences pour assurer une expérience utilisateur optimale sur différentes plateformes et dispositifs."
      	techno ="Html, Css, JS"
     	projectSrc ="https://vrai-musee-imprimerie-nantes.netlify.app/"
     	githubSrc= "https://github.com/Safirl/imprimerie">
@@ -125,7 +119,7 @@
 	section{
 		display: flex;
 		flex-direction: column;
-		gap: 40vh;
+		gap: 30vh;
         padding-left: 8vw;
         padding-right: 8vw;
 	}
