@@ -115,6 +115,11 @@
 		position: absolute;
 		z-index: -1;
 		height: 40vw;
+		animation-duration: 6s;
+        animation-name: semiScrollBottom;
+        animation-iteration-count: infinite;
+        transition: ease-out;
+		
 	}
 	section{
 		display: flex;
@@ -136,6 +141,10 @@
 		right: 0;
 		transform: translateY(-40vh);
 		height: 90vh;
+		animation-duration: 6s;
+        animation-name: semiScrollLeft;
+        animation-iteration-count: infinite;
+        transition: ease-out;
 	}
 	.stain5{
 		position: absolute;
@@ -143,6 +152,10 @@
 		left: 0;
 		transform: translateY(-40vh);
 		height: 90vh;
+		animation-duration: 6s;
+        animation-name: semiScrollRight;
+        animation-iteration-count: infinite;
+        transition: ease-out;
 	}
 
 	.projects{

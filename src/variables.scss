@@ -59,3 +59,41 @@ a{
     }
 }
 
+@keyframes semiScrollLeft {
+    0% {
+        transform: translateX(0rem);
+        }
+    50% {
+        transform: translateX(10rem);
+    }
+    100% {
+        transform: translateX(0rem);
+        }
+
+}
+
+@keyframes semiScrollRight {
+    0% {
+        transform: translateX(0rem);
+        }
+    50% {
+        transform: translateX(-10rem);
+    }
+    100% {
+        transform: translateX(0rem);
+        }
+
+}
+
+@keyframes semiScrollBottom {
+    0% {
+        transform: translateY(0rem);
+        }
+    50% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(0rem);
+        }
+
+}

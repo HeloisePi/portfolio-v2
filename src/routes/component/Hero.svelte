@@ -47,8 +47,13 @@
         top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
-       
+        animation-duration: 6s;
+        animation-name: semiScrollLeft;
+        animation-iteration-count: infinite;
+        transition: ease-out;
 
+        
     }
+ 
    
 </style>
