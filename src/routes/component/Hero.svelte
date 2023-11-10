@@ -23,6 +23,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        animation-duration: 5s;
+        animation-name: appear;
+        animation-iteration-count: 1;
+        transition: ease;
         
         .portfolio{
             display: flex;
@@ -47,12 +51,21 @@
         top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
-        animation-duration: 6s;
+        animation-duration: 4s;
         animation-name: semiScrollLeft;
         animation-iteration-count: infinite;
         transition: ease-out;
+    }
 
-        
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+       
+        100% {
+            opacity: 100%;
+
+        }
     }
  
    
