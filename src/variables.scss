@@ -52,12 +52,39 @@ p{
     font-family: $ffMontserratRegular ;
     font-size: 1.25rem;
 }
-
-a{
-    &:hover{
-        text-decoration: underline;
+@media screen and (max-width: 500px) {
+    p, h5{
+        font-size: 0.75rem;
+    }
+    h4{
+        font-size: 1rem;
     }
 }
+
+
+
+.underline{
+    width: fit-content;
+    position: relative;
+    &:hover {
+        &::after {
+          transform-origin: left;
+          transform: scaleX(1);
+        }
+      }
+    &::after {
+      content: "";
+      border-bottom: solid 2px rgb(0, 0, 0);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.25s;
+    }
+}
+ 
 
 @keyframes semiScrollLeft {
     0% {

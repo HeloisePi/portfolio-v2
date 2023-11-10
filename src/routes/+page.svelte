@@ -21,17 +21,17 @@
 	<div class="experience">
 		<h3>Mes Expériences <br> Professionnelles  </h3>
 		<Professionalex 
-		company= "Multimédia SOLUTIONS à Cestas "
-		date="( Du 06/06/2023 Au 10/07/2023 )"
-		postTitle="Stage, Junior Développement "
-		description="J'ai créé une application de prise de commandes 
+		company ="Multimédia SOLUTIONS à Cestas "
+    	date="Du 06/06/2023 Au 10/07/2023"
+    	postTitle="Stage, Junior Développement"
+    	description="J'ai créé une application de prise de commandes 
 		sur smartphone pour une entreprise 
 		dans le BTP, tout en rédigeant sa documentation complète."
 		/>
 		<img class="stain4" src="images/stain/stain4.png" alt="stain">
 		<Professionalex
 		company="Fondation John Bost"
-		date="(2018)"
+		date= "2018"
 		postTitle="Stage, Graphiste"
 		description="J'ai conçu une affiche promotionnelle
 		 pour une vente de vin visant à collecter des fonds pour une fondation."

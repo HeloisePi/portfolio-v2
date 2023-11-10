@@ -6,14 +6,14 @@
 <div class="header">
     <a href="#" class="title"><h3>PINGITORE Héloïse</h3></a>
     <div class="link">
-        <a href="#projects">
+        <a class="underline" href="#projects">
             <h4>Projet</h4>
     </a>
-        <a href="#contacts"><h4>
+        <a class="underline" href="#contacts"><h4>
             Contact
         </h4>
     </a>
-        <a href="HeloisePingitore.pdf"><h4>
+        <a class="underline" href="HeloisePingitore.pdf"><h4>
             Curriculum Vitae
         </h4>
     </a>

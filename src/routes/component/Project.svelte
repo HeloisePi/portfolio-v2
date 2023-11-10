@@ -59,8 +59,8 @@
             <p class="text">{description}</p>
             <div class="technoLink">
                 <p>Technologie utilisé : {techno}</p>
-                <a href="{projectSrc}"><p>Voir le projet > </p></a>
-                <a href="{githubSrc}"><p>Lien vers le Github > </p></a>
+                <a class="underline" href="{projectSrc}"><p>Voir le projet > </p></a>
+                <a class="underline" href="{githubSrc}"><p>Lien vers le Github > </p></a>
             </div>
         </div>
     </div>
@@ -129,6 +129,11 @@
     a{
         color: #3300FF;
     }
+    .underline, a{
+        &::after{
+            border-bottom: #3300FF 1px solid;
+        }
+    }
 
 
     @media screen and (max-width: 1300px) {  
@@ -144,5 +149,10 @@
             }
         }
 
+    }
+    @media screen and (max-width: 460px) {  
+        img{
+             width: 74vw; 
+        }
     }
 </style>
