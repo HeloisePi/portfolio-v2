@@ -6,20 +6,20 @@
         bien de manière informelle.</p>
      <div class="allContact">
         <div class="contact">
-            <img src="images/logo/phone.svg" alt="phone">
+            <a href="tel:+33782774442"><img src="images/logo/phone.svg" alt="phone"></a>
             <a href="tel:+33782774442"><p>07 82 77 44 42</p></a>
         </div>
         <div class="contact">
-            <img src="images/logo/mail.svg" alt="mail">
+            <a href="mailto:heloise.pingitore@mmibordeaux.com"><img src="images/logo/mail.svg" alt="mail"></a>
             <a href="mailto:heloise.pingitore@mmibordeaux.com"><p>heloise.pingitore@mmibordeaux.com</p></a>
             
         </div>
         <div class="contact">
-            <img src="images/logo/github.svg" alt="github">
+            <a href="https://github.com/HeloisePi"><img src="images/logo/github.svg" alt="github"></a>
             <a href="https://github.com/HeloisePi"><p>HeloisePi > </p></a>
         </div>
         <div class="contact">
-            <img src="images/logo/linkedin.svg" alt="linkedin">
+            <a href="https://www.linkedin.com/in/heloise-p-2b8539252/"><img src="images/logo/linkedin.svg" alt="linkedin"></a>
             <a href="https://www.linkedin.com/in/heloise-p-2b8539252/"><p>Héloïse P > </p></a>
         </div>
      </div>
@@ -31,6 +31,10 @@
     }
     img{
         width: 40px;
+        transition: 0.5s ease;
+    }
+    img:hover{
+        transform: scale(120%);
     }
     h3{
         margin-bottom: 1rem;
