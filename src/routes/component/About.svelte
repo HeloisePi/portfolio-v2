@@ -4,9 +4,9 @@
 <div class="about">
     <div class="portrait">
         <h3>Qui suis-je ? </h3>
-        <img class="picture" src="images/portrait.png" alt="Protrait">
+        <img class="picture" src="images/portrait.webp" alt="Protrait">
         <div class="rotateStain">
-            <img class="stain3" src="images/stain/stain3.png" alt="Stain">
+            <img class="stain3" src="images/stain/stain3.webp" alt="Stain">
         </div>
     </div>
     <div class="description">

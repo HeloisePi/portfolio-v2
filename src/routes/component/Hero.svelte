@@ -12,7 +12,7 @@
     </h2>
 </div>
 
-<img class="stain2" src="images/stain/stain2.png" alt="stain" :>
+<img class="stain2" src="images/stain/stain2.webp" alt="stain" />
 
 <style lang="scss" >
     .title{

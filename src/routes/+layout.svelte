@@ -15,8 +15,6 @@
     <p>
       © 2023 Héloïse Pingitore - Tous droits réservés
     </p>
-    <div id="wcb" class="carbonbadge"></div>
-    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
   </footer>
 </div>
 
@@ -32,7 +30,7 @@
     align-items: center;
   }
   main{
-		background-image:url(/images/background.png);
+		background-image:url(/images/background.webp);
 		background-size: cover;
     background-size: unset;
     background-repeat: repeat;
