@@ -5,7 +5,9 @@
     <div class="portrait">
         <h3>Qui suis-je ? </h3>
         <img class="picture" src="images/portrait.png" alt="Protrait">
-        <img class="stain3" src="images/stain/stain3.png" alt="Stain">
+        <div class="rotateStain">
+            <img class="stain3" src="images/stain/stain3.png" alt="Stain">
+        </div>
     </div>
     <div class="description">
         <p>Salut ! Moi, c’est Héloïse. <br> 
@@ -26,6 +28,7 @@
     .about{
         display: grid;
         grid-template-columns: 40vw 1fr;
+        align-items: center;
 
         .portrait{
 
@@ -34,16 +37,56 @@
                 margin-bottom: 1rem;
             }
 
-            .stain3{
+            .rotateStain{
                 position: absolute;
-                transform: translate(-40vw, -3vw);
+                transform: translate(-15vw, -30vw);
                 width: 55%;
                 z-index: -6;
-            }
+
+
+
+                .stain3{
+                    width: 50rem;
+                    animation-duration: 6s;
+                    animation-name: scroll;
+                    animation-iteration-count: infinite;
+
+                }
+                @keyframes scroll {
+                    0% {
+                    transform: rotate(0deg);
+                    }
+                    100% {
+                    transform: rotate(360deg);
+                    }
+
+                }
             .picture{
                 width: 25vw;
             }
         }
+
+        @media screen and (max-width: 1360px) {
+            .rotateStain{
+                transform: translate(-15vw, -35vw);
+        }
+        .picture{
+                width: 25vw;
+            }
+    }
+    @media screen and (max-width: 1240px) {
+            .rotateStain{
+                transform: translate(-15vw, -40vw);
+                .stain3{
+                width: 60vw;
+            }
+        }
+            
+            .picture{
+                width: 25vw;
+            }
+    }
+   
 
         .description{
             display: flex;
@@ -52,8 +95,8 @@
             gap: 2rem;
         }
     }
-
-    @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 660px) {
         .about {
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr;
@@ -65,7 +108,13 @@
                 }
             }
         }
+        .rotateStain{
+                z-index: -1;
+                transform: translate(-20vw, -40vw);
+                .stain3{
+                     width: 68vw;
+            }
+        }
         
-
-}
+    }
 </style>
