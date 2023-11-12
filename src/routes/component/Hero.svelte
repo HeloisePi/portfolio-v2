@@ -51,10 +51,6 @@
         top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
-        animation-duration: 4s;
-        animation-name: semiScrollLeft;
-        animation-iteration-count: infinite;
-        transition: ease-out;
     }
 
     @keyframes appear {

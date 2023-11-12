@@ -47,9 +47,6 @@
 
                 .stain3{
                     width: 50rem;
-                    animation-duration: 6s;
-                    animation-name: scroll;
-                    animation-iteration-count: infinite;
 
                 }
                 @keyframes scroll {
