@@ -53,6 +53,26 @@
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
 	<Project 
+		title ="Épopée Graphique"
+		imgSrc ="images/project/epopeegraphique.webp"
+    	description ="L'Épopée Graphique, c'est bien plus qu'un simple projet au Prime à Bord. Derrière cette page anodine, se cachent mes premiers pas dans le 'back du front'. J'ai mis les bouchées doubles pour automatiser l'affichage des images. Dès qu'elles atterrissent dans le dossier dédié, elles s'affichent sans qu'on ait à les appeler. Ce n'est pas juste une page, c'est une expérience dynamique où la magie opère sans effort. Bienvenue dans l'univers de L'Épopée Graphique, là où la simplicité rencontre l'automatisation pour un résultat qui parle de lui-même."
+     	techno ="Svelte, Js"
+    	projectSrc ="https://teampinpin.netlify.app/"
+    	githubSrc= "https://github.com/HeloisePi/teamPinpin">
+		<Tag color = #BD00FF text="Design "/>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
+		title ="Frynge"
+		imgSrc ="images/project/frynge.webp"
+    	description ="J'ai eu le privilège de participer à un hackathon de trois jours, Reboot2023. Notre équipe a été honorée d'une nomination pour le prix de la Solidarité. Ce fut un défi réellement stimulant en termes de rapidité. J'ai dû entamer le développement en parallèle avec la conception des maquettes, ce qui m'a conduit à coder de manière à rendre le contenu facilement modifiable. C'était une expérience intense où la pression du temps nous a poussés à donner le meilleur de nous-mêmes."
+     	techno ="Svelte"
+    	projectSrc ="https://frynge.netlify.app/"
+    	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
+		<Tag color = #BD00FF text="Design "/>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
 		title ="Animation front-end"
 		imgSrc ="images/project/animation.webp"
     	description ="On m'a lancé le défi de coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
