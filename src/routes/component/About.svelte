@@ -18,7 +18,7 @@
              que je suis sérieuse, curieuse et créative. </p>
         <p>
             Les outils que j’utilise en programmation : <br>
-            Svelte, React, Astro, Tailwin, Scss
+            Svelte, React, Astro, Tailwind, Scss
         </p>
     </div>
 </div>
@@ -30,23 +30,25 @@
         grid-template-columns: 40vw 1fr;
         align-items: center;
 
-        .portrait{
+        .picture{
 
-
-            h3{
+            width: 20vw;
+        }
+        h3{
                 margin-bottom: 1rem;
             }
-
+            .portrait{
             .rotateStain{
                 position: absolute;
-                transform: translate(-15vw, -30vw);
+                transform: translate(-13vw, -35vw);
                 width: 55%;
                 z-index: -6;
 
 
 
                 .stain3{
-                    width: 50rem;
+                    width: 50vw;
+                    animation: scroll 15s  infinite;
 
                 }
                 @keyframes scroll {
@@ -58,18 +60,12 @@
                     }
 
                 }
-            .picture{
-                width: 25vw;
             }
-        }
 
         @media screen and (max-width: 1360px) {
             .rotateStain{
                 transform: translate(-15vw, -35vw);
         }
-        .picture{
-                width: 25vw;
-            }
     }
     @media screen and (max-width: 1240px) {
             .rotateStain{
@@ -78,13 +74,7 @@
                 width: 60vw;
             }
         }
-            
-            .picture{
-                width: 25vw;
-            }
     }
-   
-
         .description{
             display: flex;
             flex-direction: column;
@@ -98,12 +88,6 @@
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr;
             justify-items: center;
-
-            .portrait{
-                .picture{
-                    width: 15rem;
-                }
-            }
         }
         .rotateStain{
                 z-index: -1;
@@ -114,4 +98,17 @@
         }
         
     }
+
+    @media screen and (max-width: 900px) {
+        .portrait .picture{
+            width: 25vw;
+        }
+
+    }
+    .portrait .rotateStain{
+                .stain3{
+                    width: 25vw;
+
+                }
+            }
 </style>

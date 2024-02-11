@@ -41,6 +41,37 @@
 	<div class="projects" id="projects">
 		<h3>Mes projets</h3>
 		<Project 
+		title = "Re:Naissance"
+		imgSrc = 'images/project/renaissance.webp'
+		description = "
+		J'ai eu l'opportunité de travailler sur une expérience web captivante : la décoration de portraits de la Renaissance italienne. Cette expérience devait être exposée au musée lors de la Baccanight. Dans le cadre de ce projet, j'ai travaillé en binôme pour le développement. J'ai pris en charge la partie back-end, incluant la gestion des API, des bases de données et de l'hébergement, ainsi que la partie front-end en créant des filtres pour les tableaux."
+		techno ="express nodeJs pg-promisse"
+		projectSrc="https://bacchanight.osc-fr1.scalingo.io/"
+		githubSrc="https://github.com/DrissDL/Bacchanight" >
+		<Tag color = #3300FF text="Développement " ></Tag>
+		</Project>
+		
+		<Project 
+		title ="Animation front-end"
+		imgSrc ="images/project/animation.webp"
+    	description ="On m'a lancé le défi de coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
+     	techno ="Astro, Scss, Gsap"
+    	projectSrc ="https://challengethrive.netlify.app/"
+    	githubSrc= "https://github.com/HeloisePi/challenge">
+		<Tag color = #BD00FF text="Design " ></Tag>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
+		title ="Épopée Graphique"
+		imgSrc ="images/project/epopeegraphique.webp"
+    	description ="Épopée Graphique, c'est bien plus qu'un simple projet au Prime à Bord. Derrière cette page anodine, se cachent mes premiers pas dans le 'back du front'. J'ai mis les bouchées doubles pour automatiser l'affichage des images. Dès qu'elles atterrissent dans le dossier dédié, elles s'affichent sans qu'on ait à les appeler. Ce n'est pas juste une page, c'est une expérience dynamique où la magie opère sans effort. Bienvenue dans l'univers de L'Épopée Graphique, là où la simplicité rencontre l'automatisation pour un résultat qui parle de lui-même."
+     	techno ="Svelte, Js"
+    	projectSrc ="https://epopeegraphique.fr/"
+    	githubSrc= "https://github.com/HeloisePi/teamPinpin">
+		<Tag color = #BD00FF text="Design "/>
+		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
 		title ="Bild"
 		imgSrc ="images/project/bild.webp"
     	description ="Au cours de ma formation, j'ai eu l'occasion de collaborer avec PtitDOm, une association dédiée au soutien des enfants atteints de Troubles du Spectre Autistique (TSA). J'ai contribué à la création d'une application web visant à simplifier et numériser les jeux d'images utilisés dans l'approche A.B.A. (Analyse Comportementale Appliquée). L'objectif était de faciliter l'apprentissage du vocabulaire et de renforcer la communication.
@@ -49,16 +80,6 @@
      	techno ="Svelte, Tailwind, Ts, Js"
     	projectSrc ="https://bild.ptitdom.fr/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
-		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Développement " ></Tag>
-	</Project>
-	<Project 
-		title ="Épopée Graphique"
-		imgSrc ="images/project/epopeegraphique.webp"
-    	description ="L'Épopée Graphique, c'est bien plus qu'un simple projet au Prime à Bord. Derrière cette page anodine, se cachent mes premiers pas dans le 'back du front'. J'ai mis les bouchées doubles pour automatiser l'affichage des images. Dès qu'elles atterrissent dans le dossier dédié, elles s'affichent sans qu'on ait à les appeler. Ce n'est pas juste une page, c'est une expérience dynamique où la magie opère sans effort. Bienvenue dans l'univers de L'Épopée Graphique, là où la simplicité rencontre l'automatisation pour un résultat qui parle de lui-même."
-     	techno ="Svelte, Js"
-    	projectSrc ="https://teampinpin.netlify.app/"
-    	githubSrc= "https://github.com/HeloisePi/teamPinpin">
 		<Tag color = #BD00FF text="Design "/>
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
@@ -72,16 +93,7 @@
 		<Tag color = #BD00FF text="Design "/>
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
-	<Project 
-		title ="Animation front-end"
-		imgSrc ="images/project/animation.webp"
-    	description ="On m'a lancé le défi de coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
-     	techno ="Astro, Scss, Gsap"
-    	projectSrc ="https://challengethrive.netlify.app/"
-    	githubSrc= "https://github.com/HeloisePi/challenge">
-		<Tag color = #BD00FF text="Design " ></Tag>
-		<Tag color = #3300FF text="Développement " ></Tag>
-	</Project>
+	
 	<Project 
 		title ="Interactive Card"
 		imgSrc ="images/project/card.webp"
@@ -121,6 +133,7 @@
 		position: absolute;
 		z-index: -1;
 		height: 40vw;
+		animation: semiScroll 5s ease-in-out  infinite;
         
 		
 	}
@@ -144,6 +157,7 @@
 		right: 0;
 		transform: translateY(-40vh);
 		height: 90vh;
+		animation: semiScroll 5s ease-in-out  infinite;
 	}
 	.stain5{
 		position: absolute;
@@ -151,6 +165,7 @@
 		left: 0;
 		transform: translateY(-40vh);
 		height: 90vh;
+		animation: semiScroll 5s ease-in-out  infinite;
 	}
 
 	.projects{

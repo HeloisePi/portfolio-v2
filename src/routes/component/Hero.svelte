@@ -23,7 +23,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        animation-duration: 5s;
+        animation-duration: 2s;
         animation-name: appear;
         animation-iteration-count: 1;
         transition: ease;
@@ -51,6 +51,7 @@
         top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
+        animation: semiScroll 5s ease-in-out  infinite;
     }
 
     @keyframes appear {

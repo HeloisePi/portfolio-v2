@@ -60,7 +60,9 @@
             <div class="technoLink">
                 <p>Technologie utilisé : {techno}</p>
                 <a class="underline" href="{projectSrc}"><p>Voir le projet > </p></a>
+                { #if githubSrc }
                 <a class="underline" href="{githubSrc}"><p>Lien vers le Github > </p></a>
+                {/if}
             </div>
         </div>
     </div>
@@ -151,7 +153,7 @@
 
     }
     @media screen and (max-width: 460px) {  
-        img{
+        .contenaire .imgDescription img{
              width: 74vw; 
         }
     }
