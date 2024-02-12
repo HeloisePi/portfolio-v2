@@ -20,7 +20,13 @@
 	<About />
 	<div class="experience">
 		<h3>Mes Expériences <br> Professionnelles  </h3>
-		<Professionalex 
+		<Professionalex
+		company ="MMI"
+    	date="Du 22/01/2024 Au 26/01/2024"
+    	postTitle="Police, Cybersécurité"
+    	description="Au cours d'un projet au sein de ma formation, j'ai eu l'opportunité de collaborer avec la police pour le développement d'une application visant à les assister dans leurs interventions. J'ai été responsable de la sécurisation de l'hébergement ainsi que du développement de la partie front-end. Cette expérience m'a permis de mettre en pratique mes compétences en matière de sécurité informatique et de développement d'interfaces utilisateur, tout en contribuant à un projet ayant un impact concret dans le domaine de la sécurité publique."
+		/>
+		<Professionalex
 		company ="Multimédia SOLUTIONS à Cestas "
     	date="Du 06/06/2023 Au 10/07/2023"
     	postTitle="Stage, Junior Développement"
@@ -50,8 +56,8 @@
 		githubSrc="https://github.com/DrissDL/Bacchanight" >
 		<Tag color = #3300FF text="Développement " ></Tag>
 		</Project>
-		
-		<Project 
+
+		<Project
 		title ="Animation front-end"
 		imgSrc ="images/project/animation.webp"
     	description ="On m'a lancé le défi de coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
@@ -102,6 +108,14 @@
     	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
 		<Tag color = #3300FF text="Développement " ></Tag>
+	</Project>
+	<Project 
+		title ="Pull MMI"
+		imgSrc ="images/project/pull.webp"
+    	description ="J'ai eu l'opportunité de participer à un concours organisé par le Bureau des Élèves (BDE) de mon école, et j'ai eu la chance de remporter la victoire. Cette expérience m'a permis d'exprimer pleinement ma créativité et de mettre en œuvre mes compétences avec des outils tels que Figma, Illustrator et Adobe. C'était une occasion enrichissante qui m'a permis de mettre en avant mes talents et mes préférences en matière de conception graphique."
+     	techno ="Figma Illustrator Photoshop"
+    	projectSrc ="https://www.figma.com/file/aoTDUum6SAbmo4qxIWlNsh/Sweat?type=design&node-id=0%3A1&mode=design&t=2RWCUPgRVeDKdUUO-1">
+		<Tag color = #BD00FF text="Design "/>
 	</Project>
 	<Project 
 		title ="Refonte Musée de L'imprimerie"
@@ -164,7 +178,7 @@
 		z-index: -2;
 		left: 0;
 		transform: translateY(-40vh);
-		height: 90vh;
+		height: 90vw;
 		animation: semiScroll 5s ease-in-out  infinite;
 	}
 

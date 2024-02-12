@@ -38,6 +38,10 @@
                 margin-bottom: 1rem;
             }
             .portrait{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
             .rotateStain{
                 position: absolute;
                 transform: translate(-13vw, -35vw);
