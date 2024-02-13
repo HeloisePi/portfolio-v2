@@ -22,6 +22,10 @@
             <a href="https://www.linkedin.com/in/heloise-p-2b8539252/"><img src="images/logo/linkedin.svg" alt="linkedin"></a>
             <a class="underline" href="https://www.linkedin.com/in/heloise-p-2b8539252/"><p>Héloïse P > </p></a>
         </div>
+        <div class="contact">
+            <a href="https://www.behance.net/heloisepingito"><img src="images/logo/behance.svg" alt="linkedin"></a>
+            <a class="underline" href="https://www.behance.net/heloisepingito"><p>Héloïse Pingitore > </p></a>
+        </div>
      </div>
 </div>
 
