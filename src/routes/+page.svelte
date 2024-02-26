@@ -2,7 +2,7 @@
 	import Hero from "./component/Hero.svelte";
 	import About from "./component/About.svelte";
   	import Contact from "./component/Contact.svelte";
-	  import Project from "./component/Project.svelte";
+	import Project from "./component/Project.svelte";
   	import Professionalex from "./component/Professionalex.svelte";
   	import Tag from "./component/Tag.svelte";
 
