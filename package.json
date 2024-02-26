@@ -1,6 +1,14 @@
 {
-  "name": "portfolio",
+  "short_name": "Heloise Pingitore",
+  "name": "heloise_pingitore_portfolio",
   "version": "0.0.1",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": " 155x155 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -16,5 +24,7 @@
     "svelte": "^4.0.5",
     "vite": "^4.4.2"
   },
-  "type": "module"
+  "type": "module",
+  "theme_color": "#E8D7FF",
+  "background_color": "#ffffff"
 }

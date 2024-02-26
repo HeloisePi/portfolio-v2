@@ -10,8 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Héloïse Pingitore</title>
-	<meta name="description" content="Project" />
+	<title>Portfolio | Héloïse PINGITORE</title>
 </svelte:head>
 
 <img class="stain1" src="images/stain/stain1.webp" alt="stain"/>
