@@ -96,6 +96,12 @@
                      width: 68vw;
             }
         }
+        .portrait{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+        }
         
     }
 

@@ -51,8 +51,15 @@
         top:60vh;
         transform: translateY(-25vh);
         z-index: -1;
+        width: 50%;
         animation: semiScroll 5s ease-in-out  infinite;
     }
+
+    @media screen and (max-width: 500px) {
+        .stain2{
+            width: 125%;
+        }
+        }
 
     @keyframes appear {
         0% {
@@ -67,3 +74,4 @@
  
    
 </style>
+
