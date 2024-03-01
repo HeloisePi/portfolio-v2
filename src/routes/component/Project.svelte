@@ -54,14 +54,14 @@
         </div>
     </div>
     <div class="imgDescription">
-        <a class="imgProject" href="{projectSrc}" bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave}><img src="{imgSrc}" alt="Project"></a>
+        <a class="imgProject" target="blank" href="{projectSrc}" bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave}><img src="{imgSrc}" alt="Project"></a>
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
                 <p>Technologie utilisé : {techno}</p>
                 <a class="underline" href="{projectSrc}"><p>Voir le projet > </p></a>
                 { #if githubSrc }
-                <a class="underline" href="{githubSrc}"><p>Lien vers le Github > </p></a>
+                <a class="underline" target="blank" href="{githubSrc}"><p>Lien vers le Github > </p></a>
                 {/if}
             </div>
         </div>
@@ -74,7 +74,7 @@
     .contenaire{
         border: 1px solid black;
         border-radius: 10px;
-        background: linear-gradient(180deg, rgba(238,255,215,0.6769301470588236) 0%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(180deg, rgba(238, 255, 215, 0.342) 0%, rgba(0,0,0,0) 100%);
 
         .titleTag{
             padding-left: 2vw;
@@ -91,6 +91,8 @@
                 gap: 1rem;
                 flex-wrap: wrap;
                 justify-content: end;
+                flex-direction: row;
+                flex-wrap: nowrap;
             }
         }
         .imgDescription{

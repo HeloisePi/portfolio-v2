@@ -11,7 +11,7 @@
 
 <style lang="scss">
     .tag{
-        background-color: #E8E8E8;
+        background-color: #efefef;
         border-radius: 15px;
         padding: 0.5rem;
         display: flex;
@@ -26,5 +26,18 @@
             background-color: var(--color);
             margin-right: 0.5rem;
         }
+    }
+
+    @media screen and (max-width: 560px) {
+        .tag{
+    background-color: #1e092200;
+    padding: 0;
+    h5{
+        display: none;
+    }
+    .color{
+        margin: 0;
+    }
+}
     }
 </style>
