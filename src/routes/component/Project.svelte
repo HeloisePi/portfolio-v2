@@ -48,7 +48,7 @@
 
 <div class="contenaire">
     <div class="titleTag">
-        <h4>{title}</h4>
+        <h4 class="bold">{title}</h4>
         <div class="tags">
             <slot></slot>
         </div>
@@ -58,7 +58,7 @@
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
-                <p>Technologie utilisé : {techno}</p>
+                <p class="bold">Technologie utilisé : {techno}</p>
                 <a class="underline" href="{projectSrc}"><p>Voir le projet > </p></a>
                 { #if githubSrc }
                 <a class="underline" target="blank" href="{githubSrc}"><p>Lien vers le Github > </p></a>
@@ -70,6 +70,8 @@
 
 
 <style lang="scss">
+
+    @import '../styles.css';
     
     .contenaire{
         border: 1px solid black;

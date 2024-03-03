@@ -110,7 +110,7 @@
 		<Tag color = #BD00FF text="Design "/>
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
-	
+
 	<Project 
 		title ="Interactive Card"
 		imgSrc ="images/project/card.webp"
@@ -140,6 +140,7 @@
 	</Project>
 	</div>
 	<Contact />
+	
 </section>
 <style lang="scss">
 	.background{

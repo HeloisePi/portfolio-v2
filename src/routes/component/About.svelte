@@ -12,7 +12,7 @@
     <div class="description">
         <p>Salut ! Moi, c’est Héloïse. <br> 
             Je suis étudiante en But des Métiers du Multimédia et de l'Internet. 
-            Et je suis à la recherche d'une alternance dans le développement web.</p>
+            <span class="bold">Et je suis à la recherche d'une alternance et d'un stage dans le développement web.</span></p>
         
         <p>J’aime le dessin, le violon, l’escalade. On dit de moi
              que je suis sérieuse, curieuse et créative. </p>
@@ -24,6 +24,8 @@
 </div>
 
 <style lang="scss">
+
+    @import '../styles.css';
     
     .about{
         display: grid;

@@ -8,13 +8,14 @@
 <div class="experience">
     <p>{date}</p>
     <div>
-      <p>{postTitle}</p>
+      <p class="bold">{postTitle}</p>
       <p>{description}</p>
       <p>{company}</p>
     </div>
   </div>
   
   <style lang="scss">
+    @import '../styles.css';
     
     
     .experience {
