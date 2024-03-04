@@ -72,7 +72,7 @@
 		imgSrc ="images/project/hugo.webp"
     	description ="J'ai eu l'occasion de développer le portfolio d'un camarade de classe. Le défi ? Intégrer de multiples animations, des carrousels et des filtres. J'ai donc dû intégrer ces éléments à partir de sa maquette sur Figma. Cette expérience m'a permis de mettre en pratique mes compétences en développement web tout en répondant aux besoins spécifiques de mon camarade en matière de design et d'interactivité."
      	techno ="Svelte, Scss, Gsap, Lenis"
-    	projectSrc ="https:/hugomensah.fr"
+    	projectSrc ="https://hugomensah.fr"
     	githubSrc= "https://github.com/HeloisePi/Hugo-Portfolio">
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
