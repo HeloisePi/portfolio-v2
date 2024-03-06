@@ -1,5 +1,6 @@
 <script></script>
 <div class="contacts"  id="contacts">
+    <img class="stain" src="/images/stain/stain2.webp" alt="stain">
     <h3>Contact</h3>
     <p class="sentence">Si mon profil vous intéresse, n'hésitez pas à me contacter. On peut
          en discuter tranquillement autour d'un café virtuel ou
@@ -59,9 +60,22 @@
         align-items: center;
         gap: 2rem;
     }
+
+    .contacts{
+        position: relative;
+    }
     a{
         color: black;
     }
+
+    .stain{
+        position: absolute;
+        top: 0;
+        width: 50%;
+        right: -12vw;
+        animation: semiScrollLeft 4s infinite ease-in-out;
+    }
+
 
     @media screen and (max-width: 650px) {
         .allContact {

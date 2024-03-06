@@ -5,7 +5,7 @@
     export let description;
 </script>
 
-<div class="experience">
+<div class="experience" appear>
     <p>{date}</p>
     <div>
       <p class="bold">{postTitle}</p>
@@ -23,6 +23,7 @@
       grid-template-columns: 1fr 1fr;
       border-top: 1px solid black;
       padding: 24px;
+      transition: opacity 0.2s ease-in-out ;
       div {
         display: flex;
         flex-direction: column;

@@ -89,16 +89,44 @@ p{
 }
  
 
-@keyframes semiScrollf {
+@keyframes semiScrollTop {
     0% {
-        transform: scale(100%);
+        transform: translate(0vw, 0vh)
 
         }
     50% {
-        transform: scale(140%);
+        transform: translate(0vw, -3vh);
     }
     100% {
-        transform: scale(100%);
+        transform: translate(0vw, 0vh)
+        }
+
+}
+
+@keyframes semiScrollLeft {
+    0% {
+        transform: translate(0vw, 0vh)
+
+        }
+    50% {
+        transform: translate(19vw, 0vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh)
+        }
+
+}
+
+@keyframes semiScrollRight{
+    0% {
+        transform: translate(0vw, 0vh)
+
+        }
+    50% {
+        transform: translate(-19vw, 0vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh)
         }
 
 }

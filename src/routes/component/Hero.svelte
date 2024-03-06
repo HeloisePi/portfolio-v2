@@ -15,6 +15,7 @@
 <img class="stain2" src="images/stain/stain2.webp" alt="stain" />
 
 <style lang="scss" >
+    @import '../../variables.scss';
     .title{
         z-index: -1;
         margin-left: 50%;
@@ -52,7 +53,7 @@
         transform: translateY(-25vh);
         z-index: -1;
         width: 50%;
-        animation: semiScroll 5s ease-in-out  infinite;
+        animation: semiScrollLeft 6s ease-in-out  infinite;
     }
 
     @media screen and (max-width: 500px) {

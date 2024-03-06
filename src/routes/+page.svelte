@@ -7,14 +7,44 @@
   	import Tag from "./component/Tag.svelte";
 
 
+
+	  import { onMount } from 'svelte';
+
+let scrolled = false; // Variable de statut pour vérifier si le scroll a déjà eu lieu
+
+// Fonction pour gérer l'effet d'apparition des éléments
+function handleAppearance() {
+	const elements = document.querySelectorAll('[appear]'); // Sélectionne tous les éléments avec l'attribut 'appear'
+
+	elements.forEach(element => {
+		const elementTop = element.getBoundingClientRect().top; // Position de l'élément par rapport au haut de la fenêtre
+		const windowHeight = window.innerHeight; // Hauteur de la fenêtre visible
+
+		if (!scrolled || elementTop < windowHeight) {
+			element.style.opacity = '1'; // Si le scroll n'a pas eu lieu ou si l'élément est dans la fenêtre visible, le rend visible
+		} else {
+			element.style.opacity = '0'; // Sinon, masque l'élément
+		}
+	});
+}
+
+// Appel de la fonction lors du montage du composant
+onMount(() => {
+	handleAppearance(); // Appel initial pour afficher les éléments déjà visibles
+	window.addEventListener('scroll', () => {
+		scrolled = true; // Marque que le scroll a eu lieu
+		handleAppearance(); // Appel de la fonction pour appliquer l'effet d'apparition
+	});
+});
 </script>
 
 <svelte:head>
 	<title>Portfolio | Héloïse PINGITORE</title>
 </svelte:head>
 
-<img class="stain1" src="images/stain/stain1.webp" alt="stain"/>
+
 <section>
+	<img class="stain1" src="images/stain/stain1.webp" alt="stain"/>
 	<Hero />
 	<About />
 	<div class="experience">
@@ -45,6 +75,11 @@
 	</div>
 	<div class="projects" id="projects">
 		<h3>Mes projets</h3>
+		<img class="stain5 bis" src="images/stain/stain5.webp" alt="stain">
+		<img class="stain4 bis" src="images/stain/stain4.webp" alt="stain">
+
+		<img class="stain5 bis2" src="images/stain/stain5.webp" alt="stain">
+		<img class="stain4 bis2" src="images/stain/stain2.webp" alt="stain" />
 		<Project 
 		title = "Re:Naissance"
 		imgSrc = 'images/project/renaissance.webp'
@@ -143,6 +178,7 @@
 	
 </section>
 <style lang="scss">
+	@import '../variables.scss';
 	.background{
 		position: absolute;
 		top: 0%;
@@ -159,7 +195,7 @@
 		position: absolute;
 		z-index: -1;
 		height: 40vw;
-		animation: semiScroll 5s ease-in-out  infinite;
+		animation: semiScrollTop 5s ease-in-out  infinite;
         
 		
 	}
@@ -169,9 +205,11 @@
 		gap: 30vh;
         padding-left: 8vw;
         padding-right: 8vw;
+		overflow: hidden;
 	}
 	.experience{
 		border-bottom: solid 1px black;
+		position: relative;
 	}
 	h3{
 		margin-bottom: 1rem;
@@ -180,23 +218,33 @@
 	.stain4{
 		position: absolute;
 		z-index: -2;
-		right: 0;
+		right: -20vw;
 		transform: translateY(-40vh);
 		height: 90vh;
-		animation: semiScroll 5s ease-in-out  infinite;
+		animation: semiScrollLeft 7s ease-in-out  infinite;
 	}
 	.stain5{
 		position: absolute;
 		z-index: -2;
 		left: 0;
+		left: -15vw;
 		transform: translateY(-40vh);
 		height: 90vw;
-		animation: semiScroll 5s ease-in-out  infinite;
+		animation: semiScrollRight 5s ease-in-out  infinite;
+	}
+
+	.bis{
+		top: 100vh;
+	}
+
+	.bis2{
+		top: 250vh;
 	}
 
 	.projects{
 		display: flex;
 		flex-direction: column;
 		gap: 3rem;
+		position: relative;
 	}
 </style>

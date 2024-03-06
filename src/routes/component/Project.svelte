@@ -37,7 +37,6 @@
 
   let handleMouseLeave = () => {
     // Réinitialiser la transformation lorsque la souris quitte imgProjectContainer
-    console.log('patrique')
     imgProjectContainer.style.transform = "rotateX(0) rotateY(0)";
 
     
@@ -46,7 +45,7 @@
   
 </script>
 
-<div class="contenaire">
+<article class="contenaire" appear>
     <div class="titleTag">
         <h4 class="bold">{title}</h4>
         <div class="tags">
@@ -66,7 +65,7 @@
             </div>
         </div>
     </div>
-</div>
+</article>
 
 
 <style lang="scss">
@@ -77,6 +76,7 @@
         border: 1px solid black;
         border-radius: 10px;
         background: linear-gradient(180deg, rgba(238, 255, 215, 0.342) 0%, rgba(0,0,0,0) 100%);
+        transition: opacity 0.7s ease-in-out ;
 
         .titleTag{
             padding-left: 2vw;
