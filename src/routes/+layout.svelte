@@ -2,12 +2,37 @@
   import "../app.scss";
   import Headers from "./component/Headers.svelte";
   import "./styles.css";
+  // import Lenis from '@studio-freight/lenis';
+  // import { lenisStore as lenis, setLenisStore } from '$lib/stores/lenis.ts';
+
+  // $: if (browser && $lenis && hash) {
+	// 	const target = document.querySelector(hash);
+	// 	$lenis.scrollTo(target, { offset: 0 });
+	// }
+
+	// onMount(async () => {
+
+	// 	window.history.scrollRestoration = 'manual';
+	// 	window.scrollTo(0, 0);
+
+	// 	const lenisInstance = new Lenis();
+	// 	setLenisStore(lenisInstance);
+
+
+	// 		$lenis?.destroy();
+	// 		// setLenisStore(null);
+
+  // });
+
+	// useFrame((time) => {
+	// 	$lenis?.raf(time);
+	// });
 </script>
   <Headers />
 <div class="app">
 
 
-  <main>
+  <main data-lenis-prevent>
     <slot />
   </main>
 

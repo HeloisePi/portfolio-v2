@@ -32,7 +32,9 @@
 
 <style lang="scss">
     .contacts{
-        margin-bottom: 20vh;
+        padding-bottom: 20vh;
+        overflow: hidden;
+        width: 100vw;
     }
     img{
         width: 40px;
