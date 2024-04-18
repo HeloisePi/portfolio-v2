@@ -1,21 +1,26 @@
 <script>
 </script>
-
-<div class="title">
-    <div class="portfolio">
-        <h1 class="p">P</h1>
-        <img class="o" src="images/o.svg" alt="o">
-        <h1>rtfolio</h1>
+<section>
+    <div class="title">
+        <div class="portfolio">
+            <h1 class="p">P</h1>
+            <img class="o" src="images/o.svg" alt="o">
+            <h1>rtfolio</h1>
+        </div>
+        <h2>
+        Dev front junior
+        </h2>
     </div>
-    <h2>
-       Dev front junior
-    </h2>
-</div>
 
-<img class="stain2" src="images/stain/stain2.webp" alt="stain" />
-
+    <img class="stain2" src="images/stain/stain2.webp" alt="stain" />
+</section>
 <style lang="scss" >
     @import '../../variables.scss';
+
+    section{
+        width: 100vw;
+        overflow: hidden;
+    }
     .title{
         z-index: -1;
         margin-left: 50%;

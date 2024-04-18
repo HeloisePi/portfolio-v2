@@ -80,12 +80,24 @@ onMount(() => {
 
 		<img class="stain5 bis2" src="images/stain/stain5.webp" alt="stain">
 		<img class="stain4 bis2" src="images/stain/stain2.webp" alt="stain" />
+
+		<Project
+		title = "Silver Geek"
+		imgSrc = 'images/project/silvergeek.webp'
+		description = "Lors d'un projet au cours de ma formation, j'ai eu la chance de collaborer avec une association nommée Silver Geek. Cette organisation lutte contre la fracture numérique en aidant les personnes âgées à s'intégrer dans le monde du jeu vidéo. Avec l'équipe composée de six autres personnes, nous avons travaillé sur une application visant à gérer les structures et les ateliers. Mon rôle a été polyvalent : j'ai participé à la conception de la structure de la base de données, géré l'extraction des données, et contribué à une partie du développement front-end. Cette expérience m'a offert l'opportunité de mettre en pratique mes compétences dans le développement web mobile tout en contribuant à une initiative significative pour l'inclusion numérique des personnes âgées."
+		techno ="Ruby on rails, Tailwind"
+		projectSrc="https://silvergeek.osc-fr1.scalingo.io/"
+		githubSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
+		<Tag color = #3300FF text="Développement " ></Tag>
+		</Project>
+
+
 		<Project 
 		title = "Re:Naissance"
 		imgSrc = 'images/project/renaissance.webp'
 		description = "
 		J'ai eu l'opportunité de travailler sur une expérience web captivante : la décoration de portraits de la Renaissance italienne. Cette expérience devait être exposée au musée lors de la Baccanight. Dans le cadre de ce projet, j'ai travaillé en binôme pour le développement. J'ai pris en charge la partie back-end, incluant la gestion des API, des bases de données et de l'hébergement, ainsi que la partie front-end en créant des filtres pour les tableaux."
-		techno ="express nodeJs pg-promisse"
+		techno ="Express, NodeJs, pg-promisse"
 		projectSrc="https://bacchanight.osc-fr1.scalingo.io/"
 		githubSrc="https://github.com/DrissDL/Bacchanight" >
 		<Tag color = #3300FF text="Développement " ></Tag>
