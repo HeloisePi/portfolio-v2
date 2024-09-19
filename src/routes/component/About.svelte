@@ -12,7 +12,7 @@
     <div class="description">
         <p>Salut ! Moi, c’est Héloïse. <br> 
             Je suis étudiante en But des Métiers du Multimédia et de l'Internet. 
-            <span class="bold">Et je suis à la recherche d'une alternance dans le développement web.</span></p>
+            <span class="">Et je suis actuellement en alternance chez seg2inov.</span></p>
         
         <p>J’aime le dessin, le violon, l’escalade. On dit de moi
              que je suis sérieuse, curieuse et créative. </p>

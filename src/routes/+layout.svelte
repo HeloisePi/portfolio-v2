@@ -38,7 +38,7 @@
 
   <footer>
     <p>
-      © 2023 Héloïse Pingitore - Tous droits réservés
+      © 2024 Héloïse Pingitore - Tous droits réservés
     </p>
   </footer>
 </div>

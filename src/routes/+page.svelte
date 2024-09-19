@@ -50,6 +50,18 @@ onMount(() => {
 	<div class="experience">
 		<h3>Mes Expériences <br> Professionnelles  </h3>
 		<Professionalex
+		company ="Seg2Inov"
+    	date="Du 9/09/2024 Au 11/07/2025"
+    	postTitle="Alternante Développement Fullstack"
+    	description="Actuellement en alternance, je suis en charge de la gestion des sites web ainsi que de la programmation des écrans pour S2cash en Windev. Cette expérience me permet de développer mes compétences techniques en gestion de contenu web et en programmation, tout en contribuant à l'évolution d'une solution logicielle complexe."
+		/>
+		<Professionalex
+		company ="Seg2Inov"
+    	date="Du 05/2024 Au 18/08/2024"
+    	postTitle="Stagiére Développement / UI Design"
+    	description="Durant mon stage chez Seg2inov, j'ai eu l'occasion de concevoir de nombreux designs pour les écrans de la version web de S2cash. J'ai également fait mes premiers pas sur WordPress et Windev, acquérant ainsi une première expérience dans le développement web et la gestion de contenu. Cette expérience m'a permis de renforcer mes compétences en design et de découvrir de nouveaux outils de développement."
+		/>
+		<Professionalex
 		company ="MMI"
     	date="Du 22/01/2024 Au 26/01/2024"
     	postTitle="Police, Cybersécurité"

@@ -8,7 +8,7 @@
             <h1>rtfolio</h1>
         </div>
         <h2>
-        Dev front junior
+        Dev Fullstack junior
         </h2>
     </div>
 
