@@ -1,42 +1,54 @@
 <script>
 	import Hero from "./component/Hero.svelte";
 	import About from "./component/About.svelte";
-  	import Contact from "./component/Contact.svelte";
+	import Contact from "./component/Contact.svelte";
 	import Project from "./component/Project.svelte";
-  	import Professionalex from "./component/Professionalex.svelte";
-  	import Tag from "./component/Tag.svelte";
-
-
-
-	  import { onMount } from 'svelte';
-
-let scrolled = false; // Variable de statut pour vérifier si le scroll a déjà eu lieu
-
-// Fonction pour gérer l'effet d'apparition des éléments
-function handleAppearance() {
-	const elements = document.querySelectorAll('[appear]'); // Sélectionne tous les éléments avec l'attribut 'appear'
-
-	elements.forEach(element => {
-		const elementTop = element.getBoundingClientRect().top; // Position de l'élément par rapport au haut de la fenêtre
-		const windowHeight = window.innerHeight; // Hauteur de la fenêtre visible
-
+	import Professionalex from "./component/Professionalex.svelte";
+	import Tag from "./component/Tag.svelte";
+	import { onMount } from 'svelte';
+  
+	// Code pour gérer l'effet d'apparition des éléments
+	let scrolled = false;
+  
+	function handleAppearance() {
+	  const elements = document.querySelectorAll('[appear]');
+	  elements.forEach(element => {
+		const elementTop = element.getBoundingClientRect().top;
+		const windowHeight = window.innerHeight;
 		if (!scrolled || elementTop < windowHeight) {
-			element.style.opacity = '1'; // Si le scroll n'a pas eu lieu ou si l'élément est dans la fenêtre visible, le rend visible
+		  element.style.opacity = '1';
 		} else {
-			element.style.opacity = '0'; // Sinon, masque l'élément
+		  element.style.opacity = '0';
 		}
+	  });
+	}
+  
+	onMount(() => {
+	  handleAppearance();
+	  window.addEventListener('scroll', () => {
+		scrolled = true;
+		handleAppearance();
+	  });
+  
+	  // Ajout de l'Intersection Observer pour les <mark>
+	  const markers = [...document.querySelectorAll('mark')];
+	  const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+		  if (entry.intersectionRatio > 0) {
+			entry.target.style.animationPlayState = 'running';
+			observer.unobserve(entry.target);
+		  }
+		});
+	  }, {
+		threshold: 0.8
+	  });
+  
+	  markers.forEach(mark => {
+		observer.observe(mark);
+	  });
 	});
-}
-
-// Appel de la fonction lors du montage du composant
-onMount(() => {
-	handleAppearance(); // Appel initial pour afficher les éléments déjà visibles
-	window.addEventListener('scroll', () => {
-		scrolled = true; // Marque que le scroll a eu lieu
-		handleAppearance(); // Appel de la fonction pour appliquer l'effet d'apparition
-	});
-});
-</script>
+  </script>
+  
 
 <svelte:head>
 	<title>Portfolio | Héloïse PINGITORE</title>
@@ -44,46 +56,58 @@ onMount(() => {
 
 
 <section>
-	<img class="stain1" src="images/stain/stain1.webp" alt="stain"/>
+
 	<Hero />
-	<About />
+	<!-- <About /> -->
 	<div class="experience">
 		<h3>Mes Expériences <br> Professionnelles  </h3>
+
+
 		<Professionalex
 		company ="Seg2Inov"
     	date="Du 9/09/2024 Au 11/07/2025"
-    	postTitle="Alternante Développement Fullstack"
-    	description="Actuellement en alternance, je suis en charge de la gestion des sites web ainsi que de la programmation des écrans pour S2cash en Windev. Cette expérience me permet de développer mes compétences techniques en gestion de contenu web et en programmation, tout en contribuant à l'évolution d'une solution logicielle complexe."
-		/>
+    	postTitle="Alternante Développement Fullstack">
+		Actuellement en alternance, je suis en charge de la <mark>gestion des sites web</mark> ainsi que de la <mark>programmation des écrans pour S2cash en Windev</mark>. Cette expérience me permet de développer mes compétences techniques en gestion de contenu web et en programmation, tout en contribuant à l'évolution d'une <mark>solution logicielle complexe.</mark>
+		</Professionalex>
+
+
 		<Professionalex
 		company ="Seg2Inov"
     	date="Du 05/2024 Au 18/08/2024"
-    	postTitle="Stagiére Développement / UI Design"
-    	description="Durant mon stage chez Seg2inov, j'ai eu l'occasion de concevoir de nombreux designs pour les écrans de la version web de S2cash. J'ai également fait mes premiers pas sur WordPress et Windev, acquérant ainsi une première expérience dans le développement web et la gestion de contenu. Cette expérience m'a permis de renforcer mes compétences en design et de découvrir de nouveaux outils de développement."
-		/>
+    	postTitle="Stagiére Développement / UI Design">
+		Durant mon stage chez Seg2inov, j'ai eu l'occasion de <mark>concevoir de nombreux designs</mark> pour les écrans de la version web de S2cash. J'ai également fait mes premiers pas sur WordPress et Windev, acquérant ainsi une première expérience dans le développement web et la gestion de contenu. Cette expérience m'a permis de renforcer mes compétences en design et de découvrir de nouveaux outils de développement.
+		</Professionalex>
+
+
 		<Professionalex
 		company ="MMI"
     	date="Du 22/01/2024 Au 26/01/2024"
-    	postTitle="Police, Cybersécurité"
-    	description="Au cours d'un projet au sein de ma formation, j'ai eu l'opportunité de collaborer avec la police pour le développement d'une application visant à les assister dans leurs interventions. J'ai été responsable de la sécurisation de l'hébergement ainsi que du développement de la partie front-end. Cette expérience m'a permis de mettre en pratique mes compétences en matière de sécurité informatique et de développement d'interfaces utilisateur, tout en contribuant à un projet ayant un impact concret dans le domaine de la sécurité publique."
-		/>
+    	postTitle="Police, Cybersécurité">
+		Au cours d'un projet au sein de ma formation, j'ai eu l'opportunité de <mark>collaborer avec la police pour le développement d'une application</mark> visant à les assister dans leurs interventions. J'ai été responsable de <mark>la sécurisation de l'hébergement ainsi que du développement de la partie front-end.</mark> Cette expérience m'a permis de mettre en pratique mes compétences en matière de sécurité informatique et de développement d'interfaces utilisateur, tout en contribuant à un projet ayant un impact concret dans le domaine de la sécurité publique.
+		</Professionalex>
+
+
 		<Professionalex
 		company ="Multimédia SOLUTIONS à Cestas "
     	date="Du 06/06/2023 Au 10/07/2023"
-    	postTitle="Stage, Junior Développement"
-    	description="J'ai créé une application de prise de commandes 
+    	postTitle="Stage, Junior Développement">
+		J'ai <mark>créé une application de prise de commandes</mark>
 		sur smartphone pour une entreprise 
-		dans le BTP, tout en rédigeant sa documentation complète."
-		/>
+		dans le BTP, tout en rédigeant sa documentation complète.
+		</Professionalex>
+
+
+
 		<img class="stain4" src="images/stain/stain4.webp" alt="stain">
 		<Professionalex
 		company="Fondation John Bost"
 		date= "2018"
-		postTitle="Stage, Graphiste"
-		description="J'ai conçu une affiche promotionnelle
-		 pour une vente de vin visant à collecter des fonds pour une fondation."
-		 />
-		 <img class="stain5" src="images/stain/stain5.webp" alt="stain">
+		postTitle="Stage, Graphiste">
+		J'ai conçu une <mark>affiche promotionnelle</mark>
+		pour une vente de vin visant à collecter des fonds pour une fondation.
+		</Professionalex>
+
+		
 	</div>
 	<div class="projects" id="projects">
 		<h3>Mes projets</h3>
@@ -131,7 +155,7 @@ onMount(() => {
 		imgSrc ="images/project/hugo.webp"
     	description ="J'ai eu l'occasion de développer le portfolio d'un camarade de classe. Le défi ? Intégrer de multiples animations, des carrousels et des filtres. J'ai donc dû intégrer ces éléments à partir de sa maquette sur Figma. Cette expérience m'a permis de mettre en pratique mes compétences en développement web tout en répondant aux besoins spécifiques de mon camarade en matière de design et d'interactivité."
      	techno ="Svelte, Scss, Gsap, Lenis"
-    	projectSrc ="https://hugomensah.fr/"
+    	projectSrc ="https://hugomensah.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/Hugo-Portfolio">
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
@@ -198,7 +222,7 @@ onMount(() => {
 		<Tag color = #3300FF text="Développement " ></Tag>
 	</Project>
 	</div>
-	<Contact />
+	<!-- <Contact /> -->
 	
 </section>
 <style lang="scss">
@@ -271,4 +295,32 @@ onMount(() => {
 		gap: 3rem;
 		position: relative;
 	}
+
+
+
+
+
+
+
+
+	mark {
+        --color1: #E8D7FF;
+        --color2: #E8D7FF;
+        --bg-height: 40%;
+        
+        all: unset; /* Réinitialiser le style par défaut */
+        background-image: linear-gradient(var(--color1), var(--color2));
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        background-size: 0 var(--bg-height);
+        animation: highlight 3000ms ease-out paused; /* Animation initialement en pause */
+        animation-fill-mode: forwards; /* Conserve l'état final de l'animation */
+        animation-play-state: paused; /* État initial de l'animation */
+    }
+
+    @keyframes highlight {
+        to {
+            background-size: 100% var(--bg-height); /* Étendre le fond surligné */
+        }
+    }
 </style>

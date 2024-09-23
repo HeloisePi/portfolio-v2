@@ -4,15 +4,15 @@
 
 <div class="blur"></div>
 <div class="header">
-    <a href="#" class="title"><h3>PINGITORE Héloïse</h3></a>
+    <a href="#" class="title"><p>PINGITORE Héloïse</p></a>
     <div class="link">
-        <a class="underline" href="#projects">
+        <!-- <a class="underline" href="#projects">
             <h4>Projet</h4>
     </a>
         <a class="underline" href="#contacts"><h4>
             Contact
         </h4>
-    </a>
+    </a> -->
         <a class="underline" href="HeloisePingitore.pdf"><h4>
             Curriculum Vitae
         </h4>

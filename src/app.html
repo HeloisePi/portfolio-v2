@@ -6,7 +6,7 @@
 		<meta name="theme-color"  content="#E8D7FF" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="description" content="Passionnée par le développement frontend depuis maintenant 1 an, je suis à la recherche d’une alternance dans ce domaine, et d’un stage pour le 15 avril." />
-		<meta name="keywords" content="Héloïse, Pingitore, Portfolio, Dev, développement, développement frontend, frontend, front, alternance, stage, svelte"/>
+		<meta name="keywords" content="Héloïse, Pingitore, Portfolio, Dev, développement, développement frontend, frontend, front, alternance, stage, svelte, fullstack, back"/>
 		<meta name="author" content="Héloïse Pingitore" />
 		<meta name="title" property="og:title" content="Portfolio | Héloïse PINGITORE">
 		<meta name="copyright" content="Héloïse Pingitore" />
@@ -19,6 +19,8 @@
 		<meta name="robots" content="app"/>
 		<meta name="image" property="og:image" content="/images/portrait.webp">
 		%sveltekit.head%
+		<script src="src/lib/stores/blotter.min.js"></script>
+    	<script src="src/lib/stores/slidingDoorMaterial.js"></script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
@@ -42,3 +44,13 @@
 
 	</script>
 </html>
+
+
+
+<style>
+
+
+html{
+      background-color: #ECECEC;
+    }
+</style>

@@ -37,32 +37,85 @@
   </main>
 
   <footer>
-    <p>
-      © 2024 Héloïse Pingitore - Tous droits réservés
-    </p>
+   <div class="links">
+     <a class="underline" href="https://github.com/HeloisePi"><p>Github</p></a>
+     <a class="underline" href="https://www.behance.net/heloisepingito"><p>Behance</p></a>
+     <a class="underline" href="https://www.linkedin.com/in/heloise-p-2b8539252/"><p>LinkedIn</p></a>
+     <a class="underline" href="HeloisePingitore.pdf"><p>Curriculum vitae</p></a>
+     <a class="underline" href="tel:+33782774442"><p>07 82 77 44 42</p></a>
+     <a class="underline" href="mailto:heloise.pingitore@mmibordeaux.com"><p>heloise.pingitore@mmibordeaux.com</p></a>
+   </div>
+   <div class="site">
+    <p>Plan du site -</p>
+    <a href="#"><p>Accueil</p></a>
+    <a href="#"><p>Mention légale</p></a>
+   </div>
   </footer>
 </div>
 
 <style>
   footer{
-    padding: 1rem;
-    border-top: 1px solid black;
-    height: fit-content;
-    gap: 1rem;
+    background-color: #ECECEC;
+    padding-left: 8vw;
+    padding-right: 8vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
+
   }
+
+  footer .links p{
+    font-family: "SuisseIntl-Medium";
+    color: black;
+    white-space: nowrap;
+    
+    
+  }
+.links{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: #B5B5B5 solid 1px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.site{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  padding-right: 0;
+
+}
+.site p{
+  color: #B5B5B5;
+}
+
+@media screen and (max-width: 1100px) {
+  footer .links{
+    flex-wrap: wrap;
+
+  }
+}
+
+
+
+
   main{
-		background-image:url(/images/background.webp);
-    background-size: unset;
-    background-repeat: repeat;
+		background-image:url(/images/line.svg);
+    background-size: contain;
+    background-color: #ECECEC;
+    padding-bottom: 10rem;
 	}
   @media screen and (max-width: 500px) {
         footer p {
             font-size: 14px;
         }
+    }
+
+
+    html{
+      background-color: #ECECEC;
     }
     
 </style>

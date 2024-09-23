@@ -9,47 +9,60 @@ $grey: #E8E8E8;
 //      FONT FAMILY
 
 @font-face {
-    font-family: 'Montserrat-Medium';
-    src: url(/src/assets/Montserrat-Medium.ttf);
+    font-family: 'SuisseIntl-Medium';
+    src: url(/src/assets/SuisseIntl-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'Montserrat-Regular';
-    src: url(/src/assets/Montserrat-Regular.ttf);
+    font-family: 'SuisseIntl-Regular';
+    src: url(/src/assets/SuisseIntl-Regular.ttf);
 }
 
-$ffMontserratMedium : 'Montserrat-Medium';
-$ffMontserratRegular : 'Montserrat-Regular';
+@font-face {
+    font-family: 'SuisseIntl-Bold';
+    src: url(/src/assets/SuisseIntl-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SuisseIntl-Light';
+    src: url(/src/assets/SuisseIntl-Light.ttf);
+}
+
+@font-face {
+    font-family: 'SuisseIntl-SemiBold';
+    src: url(/src/assets/SuisseIntl-SemiBold.ttf);
+}
+
 //      FONT STYLE & STYLE 
 
 h1{
-    font-family: $ffMontserratMedium;
+    font-family: 'SuisseIntl-Regular';
     //font-size: 6rem;
-    font-size: 8vw;
+    font-size: 112px;
 }
 
 h2{
-    font-family: $ffMontserratRegular;
-    font-size: 4vw;
+    font-family: 'SuisseIntl-Light' ;
+    font-size: 48px;
 }
 
 h3{
-    font-family: $ffMontserratMedium ;
-    font-size: 1.25rem;
+    font-family: 'SuisseIntl-Medium' ;
+    font-size: 32px;
 }
 
 h4{
-    font-family: $ffMontserratRegular ;
+    font-family: 'SuisseIntl-Light' ;
     font-size: 1.25rem;
 }
 
 h5{
-    font-family: $ffMontserratRegular ;
+    font-family: 'SuisseIntl-Light' ;
     font-size: 0.875rem;
 }
 
 p{
-    font-family: $ffMontserratRegular ;
+    font-family: 'SuisseIntl-Light' ;
     font-size: 1.25rem;
 }
 @media screen and (max-width: 500px) {
@@ -62,7 +75,7 @@ p{
 }
 
 .bold{
-    font-family: $ffMontserratMedium ;
+    font-family:  'SuisseIntl-Regular';
 }
 
 

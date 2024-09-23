@@ -2,14 +2,13 @@
     export let company;
     export let date;
     export let postTitle;
-    export let description;
 </script>
 
 <div class="experience" appear>
     <p>{date}</p>
     <div>
       <p class="bold">{postTitle}</p>
-      <p>{description}</p>
+      <p><slot></slot></p>
       <p>{company}</p>
     </div>
   </div>
@@ -22,7 +21,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       border-top: 1px solid black;
-      padding: 24px;
+      padding-top: 24px;
+      padding-bottom: 24px;
       transition: opacity 0.2s ease-in-out ;
       div {
         display: flex;

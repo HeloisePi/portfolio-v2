@@ -1,6 +1,5 @@
 <script></script>
 <div class="contacts"  id="contacts">
-    <img class="stain" src="/images/stain/stain2.webp" alt="stain">
     <h3>Contact</h3>
     <p class="sentence">Si mon profil vous intéresse, n'hésitez pas à me contacter. On peut
          en discuter tranquillement autour d'un café virtuel ou

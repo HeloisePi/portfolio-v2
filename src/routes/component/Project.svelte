@@ -6,41 +6,41 @@
     export let projectSrc;
     export let githubSrc;
 
-    let constrain = 100;
-    let imgProjectContainer;
+//     let constrain = 100;
+//     let imgProjectContainer;
 
-  function transforms(x, y, imgProject) {
-    let calcX = -(y - imgProject.top - (imgProject.height / 2)) / constrain;
-    let calcY = (x - imgProject.left - (imgProject.width / 2)) / constrain;
-    return "perspective(150px) " +
-        "rotateX(" + calcX + "deg) " +
-        "rotateY(" + calcY + "deg) ";
-  }
+//   function transforms(x, y, imgProject) {
+//     let calcX = -(y - imgProject.top - (imgProject.height / 2)) / constrain;
+//     let calcY = (x - imgProject.left - (imgProject.width / 2)) / constrain;
+//     return "perspective(150px) " +
+//         "rotateX(" + calcX + "deg) " +
+//         "rotateY(" + calcY + "deg) ";
+//   }
 
-  function transformElement(el, xyEl) {
-    let x = xyEl[0];
-    let y = xyEl[1];
-    let imgProject = xyEl[2];
+//   function transformElement(el, xyEl) {
+//     let x = xyEl[0];
+//     let y = xyEl[1];
+//     let imgProject = xyEl[2];
 
-    el.style.transform = transforms(x, y, imgProject);
-  }
+//     el.style.transform = transforms(x, y, imgProject);
+//   }
 
-  let handleMouseMove = (e) => {
-    let xy = [e.clientX, e.clientY];
-    let imgProject = imgProjectContainer.getBoundingClientRect();
-    let position = xy.concat([imgProject]);
+//   let handleMouseMove = (e) => {
+//     let xy = [e.clientX, e.clientY];
+//     let imgProject = imgProjectContainer.getBoundingClientRect();
+//     let position = xy.concat([imgProject]);
 
-    window.requestAnimationFrame(() => {
-      transformElement(imgProjectContainer, position);
-    });
-  };
+//     window.requestAnimationFrame(() => {
+//       transformElement(imgProjectContainer, position);
+//     });
+//   };
 
-  let handleMouseLeave = () => {
-    // Réinitialiser la transformation lorsque la souris quitte imgProjectContainer
-    imgProjectContainer.style.transform = "rotateX(0) rotateY(0)";
+//   let handleMouseLeave = () => {
+//     // Réinitialiser la transformation lorsque la souris quitte imgProjectContainer
+//     imgProjectContainer.style.transform = "rotateX(0) rotateY(0)";
 
     
-}
+// }
 
   
 </script>
@@ -53,7 +53,8 @@
         </div>
     </div>
     <div class="imgDescription">
-        <a class="imgProject" target="blank" href="{projectSrc}" bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave}><img src="{imgSrc}" alt="Project"></a>
+        <a class="imgProject" target="blank" href="{projectSrc}"><img src="{imgSrc}" alt="Project"></a>
+        <!--  bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave} -->
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
@@ -75,7 +76,7 @@
     .contenaire{
         border: 1px solid black;
         border-radius: 10px;
-        background: linear-gradient(180deg, rgba(238, 255, 215, 0.342) 0%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(180deg, rgba(219, 255, 215, 0.052) 0%, rgba(252, 252, 252, 0.065) 100%);
         transition: opacity 0.7s ease-in-out ;
 
         .titleTag{
@@ -102,9 +103,9 @@
             grid-template-columns: 50% 50%;
             padding: 2vw;
 
-            .imgProject:hover{
-                 transform: scale(105%);
-            }
+            // .imgProject:hover{
+            //      transform: scale(105%);
+            // }
             .imgProject{
                 transition: 500ms;
             }
@@ -112,6 +113,7 @@
             img{
                 border: 1px solid black;
                 width: 37vw;
+                border-radius: 5px;
             }
 
             .description{
