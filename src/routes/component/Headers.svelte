@@ -27,8 +27,8 @@
         top: 0;
         width: 100vw;
         height: 70px;
-        padding-left: 4vw;
-        padding-right: 4vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
         display: flex;
         align-items: center;
         justify-content: space-between;

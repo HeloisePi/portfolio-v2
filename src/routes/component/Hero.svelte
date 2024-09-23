@@ -2,38 +2,38 @@
     import { onMount } from "svelte";
 
     onMount(() => {
-        if (typeof Blotter !== "undefined") {
-            // Sélectionner le texte à distordre
-            const textElement = document.getElementById("distorted-text");
-            const textContent = textElement.innerText;
-            const isSmallScreen = window.innerWidth < 580;
-            const textSize = isSmallScreen ? 24 : 48; // Taille conditionnelle
+         if (typeof Blotter !== "undefined") {
+        //     // Sélectionner le texte à distordre
+        //     const textElement = document.getElementById("distorted-text");
+        //     const textContent = textElement.innerText;
+        //     const isSmallScreen = window.innerWidth < 580;
+        //     const textSize = isSmallScreen ? 24 : 48; // Taille conditionnelle
 
 
-            // Créer un objet Blotter.Text avec le contenu du texte sélectionné
-            const text = new Blotter.Text("- Dev Fullstack", {
-                family: "SuisseIntl-Light",
-                size: textSize,
-                fill: "#868686",
-                paddingLeft: 0,
-                paddingRight: 0
-            });
+        //     // Créer un objet Blotter.Text avec le contenu du texte sélectionné
+        //     const text = new Blotter.Text("- Dev Fullstack", {
+        //         family: "SuisseIntl-Light",
+        //         size: textSize,
+        //         fill: "#868686",
+        //         paddingLeft: 0,
+        //         paddingRight: 0
+        //     });
 
-            const material = new Blotter.SlidingDoorMaterial();
-            material.uniforms.uSpeed.value = 0.25;
+        //     const material = new Blotter.SlidingDoorMaterial();
+        //     material.uniforms.uSpeed.value = 0.25;
 
-            const blotter = new Blotter(material, {
-                texts: text
-            });
+        //     const blotter = new Blotter(material, {
+        //         texts: text
+        //     });
 
-            // Remplacer le contenu de l'élément avec l'effet Blotter
-            const scope = blotter.forText(text);
-            scope.appendTo(textElement);
+            // // Remplacer le contenu de l'élément avec l'effet Blotter
+            // const scope = blotter.forText(text);
+            // scope.appendTo(textElement);
 
             // Arrêter l'animation après 2 secondes
-            setTimeout(() => {
-                material.uniforms.uSpeed.value = 0; // Met la vitesse à 0 pour arrêter l'animation
-            }, 2000);
+            // setTimeout(() => {
+            //     material.uniforms.uSpeed.value = 0; // Met la vitesse à 0 pour arrêter l'animation
+            // }, 2000);
 
             // Sélectionner les éléments <mark> à observer
             const markers = [...document.querySelectorAll('mark')];
@@ -68,7 +68,8 @@
             <img class="o" src="/images/o.svg" alt="o">
             <h1 class="rtfolio">rtfolio</h1>
         </div>
-        <h2 id="distorted-text" class="hidden-text"> - Dev Fullstack</h2>
+        <h2 class="hidden-text"> - Dev Fullstack</h2>
+        <!--  id="distorted-text" -->
     </div>
 
     <div class="imgDescp">
@@ -120,10 +121,12 @@
     }
 
     h2 {
-        left: -70px;
-        position: absolute;
-        color: transparent;
-        transform: translate(0rem, -1rem);
+        // left: -70px;
+         position: absolute;
+        // // color: transparent;
+        // transform: translate(0rem, -1rem);
+        color: #868686;
+        transform: translate(8rem, -0.5rem);
     }
 
     section {
