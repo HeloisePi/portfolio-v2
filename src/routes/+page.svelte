@@ -250,7 +250,7 @@
 	section{
 		display: flex;
 		flex-direction: column;
-		gap: 30vh;
+		gap: 13vh;
         padding-left: 8vw;
         padding-right: 8vw;
 		overflow: hidden;
