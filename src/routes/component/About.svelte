@@ -10,16 +10,12 @@
         </div>
     </div>
     <div class="description">
-        <p>Salut ! Moi, c’est Héloïse. <br> 
-            Je suis étudiante en But des Métiers du Multimédia et de l'Internet. 
-            <span class="">Et je suis actuellement en alternance chez seg2inov.</span></p>
-        
-        <p>J’aime le dessin, le violon, l’escalade. On dit de moi
-             que je suis sérieuse, curieuse et créative. </p>
-        <p>
-            Les outils que j’utilise en programmation : <br>
-            Svelte, React, Astro, Tailwind, Scss, Ruby on rails
-        </p>
+        <p>Hi there! I'm Héloïse.
+             <br> I am a student in the Bachelor's in Multimedia and Internet Professions.
+             <span class="">I am currently doing a work-study program at seg2inov.</span></p>
+             <p>I enjoy drawing, playing the violin, and kick boxing. I am known to be serious, curious, and creative.</p>
+              <p>The tools I use in programming: <br> Svelte, React, Astro, Tailwind, Scss, Ruby on Rails</p>
+               <p>I am also looking for a work-study program starting in September 2025.</p>
     </div>
 </div>
 

@@ -46,9 +46,9 @@
      <a class="underline" href="mailto:heloise.pingitore@mmibordeaux.com"><p>heloise.pingitore@mmibordeaux.com</p></a>
    </div>
    <div class="site">
-    <p>Plan du site -</p>
-    <a href="#"><p>Accueil</p></a>
-    <a href="#"><p>Mention légale</p></a>
+    <p>Site Map -</p>
+    <a href="#"><p>Home</p></a>
+    <a href="#"><p>Legal Notice</p></a>
    </div>
   </footer>
 </div>

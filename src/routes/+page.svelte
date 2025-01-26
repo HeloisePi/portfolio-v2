@@ -60,40 +60,39 @@
 	<Hero />
 	<!-- <About /> -->
 	<div class="experience">
-		<h3>Mes Expériences <br> Professionnelles  </h3>
+		<h3>My Professional <br> Experience</h3>
 
 
 		<Professionalex
-		company ="Seg2Inov"
-    	date="Du 9/09/2024 Au 11/07/2025"
-    	postTitle="Alternante Développement Fullstack">
-		Actuellement en alternance, je suis en charge de la <mark>gestion des sites web</mark> ainsi que de la <mark>programmation des écrans pour S2cash en Windev</mark>. Cette expérience me permet de développer mes compétences techniques en gestion de contenu web et en programmation, tout en contribuant à l'évolution d'une <mark>solution logicielle complexe.</mark>
+		company ="SEG2 Inov ( French Tech )"
+    	date="From 9/09/2024 to  11/07/2025"
+    	postTitle="Devops">
+		Currently in a work-study program, I am responsible for managing websites and programming interfaces for S2cash. This experience allows me to develop skills in both web technologies and software development, including server setup, establishing communication links via SSH, front-end and back-end development, PostgreSQL and database management, as well as WordPress customization. I also design and optimize database architecture, conduct user testing, and perform project analysis, all while contributing to the evolution of a complex and innovative software solution.
+		This role strengthens my expertise in software development and project management.
 		</Professionalex>
 
 
 		<Professionalex
-		company ="Seg2Inov"
-    	date="Du 05/2024 Au 18/08/2024"
-    	postTitle="Stagiére Développement / UI Design">
-		Durant mon stage chez Seg2inov, j'ai eu l'occasion de <mark>concevoir de nombreux designs</mark> pour les écrans de la version web de S2cash. J'ai également fait mes premiers pas sur WordPress et Windev, acquérant ainsi une première expérience dans le développement web et la gestion de contenu. Cette expérience m'a permis de renforcer mes compétences en design et de découvrir de nouveaux outils de développement.
+		company ="SEG2 Inov ( French Tech ) "
+    	date="From 05/2024 to  18/08/2024"
+    	postTitle="Devops /  UI Design">
+		During my internship at Seg2inov, I had the opportunity to design multiple interfaces for the web version of S2cash. I also took my first steps with WordPress, gaining initial experience in web development and content management. This experience allowed me to strengthen my design skills while exploring new development tools.
 		</Professionalex>
 
 
 		<Professionalex
-		company ="MMI"
-    	date="Du 22/01/2024 Au 26/01/2024"
-    	postTitle="Police, Cybersécurité">
-		Au cours d'un projet au sein de ma formation, j'ai eu l'opportunité de <mark>collaborer avec la police pour le développement d'une application</mark> visant à les assister dans leurs interventions. J'ai été responsable de <mark>la sécurisation de l'hébergement ainsi que du développement de la partie front-end.</mark> Cette expérience m'a permis de mettre en pratique mes compétences en matière de sécurité informatique et de développement d'interfaces utilisateur, tout en contribuant à un projet ayant un impact concret dans le domaine de la sécurité publique.
+		company ="MMI - Cybersecurity"
+    	date="From 22/01/2024 to  26/01/2024"
+    	postTitle="MMI - Cybersecurity">
+		During a project in my training program, I had the opportunity to collaborate with the police on the development of an application designed to assist them during interventions. I was responsible for securing the hosting environment and developing the front-end interface. This experience allowed me to apply my skills in cybersecurity, front-end development, and user interface design while contributing to a project with a tangible impact on public safety.
 		</Professionalex>
 
 
 		<Professionalex
-		company ="Multimédia SOLUTIONS à Cestas "
-    	date="Du 06/06/2023 Au 10/07/2023"
-    	postTitle="Stage, Junior Développement">
-		J'ai <mark>créé une application de prise de commandes</mark>
-		sur smartphone pour une entreprise 
-		dans le BTP, tout en rédigeant sa documentation complète.
+		company ="Multimédia SOLUTIONS"
+    	date="From 06/06/2023 to  10/07/2023"
+    	postTitle="Stage">
+		I developed a mobile order-taking application for a company in the construction sector, while also writing its complete documentation. This project allowed me to manage tasks autonomously, adapt to industry-specific needs, and solve real-world problems. I worked with Aurelia and Eclipse for web development and focused on creating a mobile-friendly design tailored to the company’s requirements.
 		</Professionalex>
 
 
@@ -102,15 +101,14 @@
 		<Professionalex
 		company="Fondation John Bost"
 		date= "2018"
-		postTitle="Stage, Graphiste">
-		J'ai conçu une <mark>affiche promotionnelle</mark>
-		pour une vente de vin visant à collecter des fonds pour une fondation.
+		postTitle="Stage">
+		I designed a promotional poster for a wine sale aimed at raising funds for a foundation. This project allowed me to support a fundraising campaign through targeted communication and visually impactful design.
 		</Professionalex>
 
 		
 	</div>
 	<div class="projects" id="projects">
-		<h3>Mes projets</h3>
+		<h3>My Projects</h3>
 		<img class="stain5 bis" src="images/stain/stain5.webp" alt="stain">
 		<img class="stain4 bis" src="images/stain/stain4.webp" alt="stain">
 
@@ -120,11 +118,10 @@
 		<Project
 		title = "Silver Geek"
 		imgSrc = 'images/project/silvergeek.webp'
-		description = "Lors d'un projet au cours de ma formation, j'ai eu la chance de collaborer avec une association nommée Silver Geek. Cette organisation lutte contre la fracture numérique en aidant les personnes âgées à s'intégrer dans le monde du jeu vidéo. Avec l'équipe composée de six autres personnes, nous avons travaillé sur une application visant à gérer les structures et les ateliers. Mon rôle a été polyvalent : j'ai participé à la conception de la structure de la base de données, géré l'extraction des données, et contribué à une partie du développement front-end. Cette expérience m'a offert l'opportunité de mettre en pratique mes compétences dans le développement web mobile tout en contribuant à une initiative significative pour l'inclusion numérique des personnes âgées."
+		description = "During a project in my training program, I had the opportunity to collaborate with an organization called Silver Geek. This association fights against the digital divide by helping elderly people integrate into the world of video games. Together with a team of six others, we worked on an application designed to manage structures and workshops. My role was versatile: I participated in designing the database structure, managed data extraction, and contributed to part of the front-end development. This experience allowed me to apply my skills in mobile web development while contributing to a meaningful initiative for digital inclusion among the elderly."
 		techno ="Ruby on rails, Tailwind"
-		projectSrc="https://silvergeek.osc-fr1.scalingo.io/"
 		githubSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 		</Project>
 
 
@@ -132,94 +129,93 @@
 		title = "Re:Naissance"
 		imgSrc = 'images/project/renaissance.webp'
 		description = "
-		J'ai eu l'opportunité de travailler sur une expérience web captivante : la décoration de portraits de la Renaissance italienne. Cette expérience devait être exposée au musée lors de la Baccanight. Dans le cadre de ce projet, j'ai travaillé en binôme pour le développement. J'ai pris en charge la partie back-end, incluant la gestion des API, des bases de données et de l'hébergement, ainsi que la partie front-end en créant des filtres pour les tableaux."
+		I had the opportunity to work on an engaging web experience: decorating portraits from the Italian Renaissance. This experience was designed to be showcased at the museum during the Baccanight event. For this project, I collaborated with a partner on the development. I handled the back-end, including API management, databases, and hosting, as well as the front-end by creating filters for the paintings."
 		techno ="Express, NodeJs, pg-promisse"
 		projectSrc="https://bacchanight.osc-fr1.scalingo.io/"
 		githubSrc="https://github.com/DrissDL/Bacchanight" >
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 		</Project>
 
 		<Project
 		title ="Animation front-end"
 		imgSrc ="images/project/animation.webp"
-    	description ="On m'a lancé le défi de coder un portfolio en une semaine. Pour accomplir cette mission, j'ai fait le choix du framework Astro, que je considérais comme étant le plus optimisé pour ce type de site. Par ailleurs, j'ai intégré la bibliothèque GSAP pour les animations, une décision qui s'est avérée extrêmement bénéfique en termes d'efficacité. Grâce à ce projet, j'ai pu acquérir de nouvelles compétences dans l'utilisation de bibliothèques et la création d'animations, enrichissant ainsi mon bagage technique de manière significative."
+    	description ="I was challenged to code a portfolio within a week. To accomplish this task, I chose the Astro framework, which I considered to be the most optimized for this type of site. Additionally, I integrated the GSAP library for animations, a decision that proved to be highly beneficial in terms of efficiency. Through this project, I was able to acquire new skills in using libraries and creating animations, significantly enhancing my technical expertise."
      	techno ="Astro, Scss, Gsap"
     	projectSrc ="https://challengethrive.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/challenge">
 		<Tag color = #BD00FF text="Design " ></Tag>
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 
 	<Project
 		title ="Portfolio"
 		imgSrc ="images/project/hugo.webp"
-    	description ="J'ai eu l'occasion de développer le portfolio d'un camarade de classe. Le défi ? Intégrer de multiples animations, des carrousels et des filtres. J'ai donc dû intégrer ces éléments à partir de sa maquette sur Figma. Cette expérience m'a permis de mettre en pratique mes compétences en développement web tout en répondant aux besoins spécifiques de mon camarade en matière de design et d'interactivité."
+    	description ="I had the opportunity to develop a classmate's portfolio. The challenge? Integrating multiple animations, carousels, and filters. I had to incorporate these elements based on his design mockup in Figma. This experience allowed me to apply my web development skills while meeting my classmate's specific design and interactivity needs."
      	techno ="Svelte, Scss, Gsap, Lenis"
     	projectSrc ="https://hugomensah.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/Hugo-Portfolio">
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 
 
 	<Project 
 		title ="Épopée Graphique"
 		imgSrc ="images/project/epopeegraphique.webp"
-    	description ="Épopée Graphique, c'est bien plus qu'un simple projet au Prime à Bord. Derrière cette page anodine, se cachent mes premiers pas dans le 'back du front'. J'ai mis les bouchées doubles pour automatiser l'affichage des images. Dès qu'elles atterrissent dans le dossier dédié, elles s'affichent sans qu'on ait à les appeler. Ce n'est pas juste une page, c'est une expérience dynamique où la magie opère sans effort. Bienvenue dans l'univers de L'Épopée Graphique, là où la simplicité rencontre l'automatisation pour un résultat qui parle de lui-même."
+    	description ="Épopée Graphique is much more than just a simple project at Prime à Bord. Behind this seemingly ordinary page lies my first steps in the 'back of the front.' I worked hard to automate the display of images. As soon as they land in the designated folder, they automatically appear without needing to be called. It's not just a page, it's a dynamic experience where the magic happens effortlessly. Welcome to the world of L'Épopée Graphique, where simplicity meets automation for a result that speaks for itself."
      	techno ="Svelte, Js"
     	projectSrc ="https://epopeegraphique.fr/"
     	githubSrc= "https://github.com/HeloisePi/teamPinpin">
 		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 	<Project 
 		title ="Bild"
 		imgSrc ="images/project/bild.webp"
-    	description ="Au cours de ma formation, j'ai eu l'occasion de collaborer avec PtitDOm, une association dédiée au soutien des enfants atteints de Troubles du Spectre Autistique (TSA). J'ai contribué à la création d'une application web visant à simplifier et numériser les jeux d'images utilisés dans l'approche A.B.A. (Analyse Comportementale Appliquée). L'objectif était de faciliter l'apprentissage du vocabulaire et de renforcer la communication.
-		Au cours de ce projet de deux semaines, j'ai joué un rôle clé en intégrant et en participant à la conception de la maquette à l'aide des technologies Svelte et Tailwind. Les choix d'outils étaient orientés vers la simplicité d'utilisation, permettant ainsi d'accélérer le développement du projet. 
-		"
+    	description ="During my training, I had the opportunity to collaborate with PtitDOm, an organization dedicated to supporting children with Autism Spectrum Disorder (ASD). I contributed to the creation of a web application aimed at simplifying and digitizing the picture games used in the A.B.A. (Applied Behavior Analysis) approach. The goal was to facilitate vocabulary learning and enhance communication.
+Throughout this two-week project, I played a key role in integrating and participating in the design of the mockup using Svelte and Tailwind technologies. The tool choices were focused on ease of use, allowing for faster project development."
      	techno ="Svelte, Tailwind, Ts, Js"
     	projectSrc ="https://bild.ptitdom.fr/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
 		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 	<Project 
 		title ="Frynge"
 		imgSrc ="images/project/frynge.webp"
-    	description ="J'ai eu le privilège de participer à un hackathon de trois jours, Reboot2023. Notre équipe a été honorée d'une nomination pour le prix de la Solidarité. Ce fut un défi réellement stimulant en termes de rapidité. J'ai dû entamer le développement en parallèle avec la conception des maquettes, ce qui m'a conduit à coder de manière à rendre le contenu facilement modifiable. C'était une expérience intense où la pression du temps nous a poussés à donner le meilleur de nous-mêmes."
+    	description ="I had the privilege of participating in a three-day hackathon, Reboot2023. Our team was honored with a nomination for the Solidarity Award. It was a truly challenging experience in terms of speed. I had to start development alongside the design of the mockups, which led me to code in a way that made the content easily editable. It was an intense experience where the pressure of time pushed us to give our best."
      	techno ="Svelte"
     	projectSrc ="https://frynge.netlify.app/"
     	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
 		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 
 	<Project 
 		title ="Interactive Card"
 		imgSrc ="images/project/card.webp"
-    	description ="Par pur esprit d'auto-apprentissage, j'ai choisi de relever un défi sur MentorChallenge. Cette expérience m'a offert une opportunité précieuse pour approfondir ma compréhension de JavaScript et affiner mes compétences en matière d'organisation de code. Guidé par les enseignements du livre 'Coder proprement' de Robert C. Martin, j'ai revu et optimisé les noms de mes variables, classes et fonctions, entre autres. En repensant la structure de mes fonctions, j'ai créé une organisation plus efficace, me permettant ainsi d'ajouter ou de supprimer des fonctionnalités avec une flexibilité accrue."
+    	description ="Driven by a spirit of self-learning, I chose to take on a challenge on MentorChallenge. This experience provided me with a valuable opportunity to deepen my understanding of JavaScript and refine my coding organization skills. Guided by the teachings from Robert C. Martin's book 'Clean Code,' I reviewed and optimized the names of my variables, classes, and functions, among others. By rethinking the structure of my functions, I created a more efficient organization, allowing me to add or remove features with greater flexibility."
      	techno ="Html, Css, JS"
     	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 	<Project 
 		title ="Pull MMI"
 		imgSrc ="images/project/pull.webp"
-    	description ="J'ai eu l'opportunité de participer à un concours organisé par le Bureau des Élèves (BDE) de mon école, et j'ai eu la chance de remporter la victoire. Cette expérience m'a permis d'exprimer pleinement ma créativité et de mettre en œuvre mes compétences avec des outils tels que Figma, Illustrator et Adobe. C'était une occasion enrichissante qui m'a permis de mettre en avant mes talents et mes préférences en matière de conception graphique."
+    	description ="I had the opportunity to participate in a competition organized by the Student Bureau (BDE) of my school, and I was fortunate to win. This experience allowed me to fully express my creativity and apply my skills using tools such as Figma, Illustrator, and Adobe. It was a rewarding opportunity that allowed me to showcase my talents and preferences in graphic design."
      	techno ="Figma Illustrator Photoshop"
     	projectSrc ="https://www.figma.com/file/aoTDUum6SAbmo4qxIWlNsh/Sweat?type=design&node-id=0%3A1&mode=design&t=2RWCUPgRVeDKdUUO-1">
 		<Tag color = #BD00FF text="Design "/>
 	</Project>
 	<Project 
-		title ="Refonte Musée de L'imprimerie"
+		title ="Redesign and recoding of the Printing Museum"
 		imgSrc ="images/project/musee.webp"
-    	description ="Voici mon tout premier site web, fruit d'une collaboration au sein d'un groupe de 4 personnes, visant la refonte d'un site de musée. Cette expérience m'a permis d'acquérir les fondamentaux du HTML, du CSS, et même du JavaScript. En outre, j'ai pu explorer les subtilités du responsive design en utilisant les media queries, élargissant ainsi mes compétences pour assurer une expérience utilisateur optimale sur différentes plateformes et dispositifs."
+    	description ="Here is my very first website, the result of a collaboration within a group of 4 people, aimed at redesigning a museum's website. This experience allowed me to acquire the fundamentals of HTML, CSS, and even JavaScript. Additionally, I was able to explore the nuances of responsive design by using media queries, further expanding my skills to ensure an optimal user experience across different platforms and devices."
      	techno ="Html, Css, JS"
     	projectSrc ="https://vrai-musee-imprimerie-nantes.netlify.app/"
     	githubSrc= "https://github.com/Safirl/imprimerie">
 		<Tag color = #BD00FF text="Design " ></Tag>
-		<Tag color = #3300FF text="Développement " ></Tag>
+		<Tag color = #3300FF text="Development " ></Tag>
 	</Project>
 	</div>
 	<!-- <Contact /> -->

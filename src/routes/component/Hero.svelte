@@ -74,13 +74,12 @@
 
     <div class="imgDescp">
         <div class="portrait">
-            <img class="portraitImg" src="/images/portrait.png" alt=" photographie de Héloïse Pingitore">
+            <img class="portraitImg" src="/images/portrait.webp" alt=" photographie de Héloïse Pingitore">
             <img class="stain" src="/images/stain.png" alt="tache violette">
         </div>
 
         <div class="description">
-            <p>Je suis étudiante en <mark>BUT des Métiers du Multimédia et de l'Internet</mark>.
-            Et je suis actuellement en <mark>alternance chez seg2inov</mark>. On dit de moi que je suis sérieuse, curieuse et créative</p>
+            <p>I am a student in a <mark>Bachelor's in Multimedia and Internet Professions</mark>, currently doing a <mark>work-study program at seg2inov</mark>. I am known to be serious, curious, and creative. I am also looking for an apprenticeship starting in September 2025.</p>
         </div>
     </div>
 </section>

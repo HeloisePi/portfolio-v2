@@ -58,10 +58,10 @@
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
-                <p class="bold">Technologie utilisé : {techno}</p>
-                <a class="underline" href="{projectSrc}"><p>Voir le projet > </p></a>
+                <p class="bold">Technologies used: {techno}</p>
+                <a class="underline" href="{projectSrc}"><p>See the project > </p></a>
                 { #if githubSrc }
-                <a class="underline" target="blank" href="{githubSrc}"><p>Lien vers le Github > </p></a>
+                <a class="underline" target="blank" href="{githubSrc}"><p>Link to Github > </p></a>
                 {/if}
             </div>
         </div>

@@ -1,9 +1,7 @@
 <script></script>
 <div class="contacts"  id="contacts">
     <h3>Contact</h3>
-    <p class="sentence">Si mon profil vous intéresse, n'hésitez pas à me contacter. On peut
-         en discuter tranquillement autour d'un café virtuel ou
-        bien de manière informelle.</p>
+    <p class="sentence">If you're interested in collaborating, feel free to reach out. We can discuss it further at your convenience.</p>
      <div class="allContact">
         <div class="contact">
             <a href="tel:+33782774442"><img src="images/logo/phone.svg" alt="phone"></a>
