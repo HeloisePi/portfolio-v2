@@ -131,7 +131,7 @@
 		description = "
 		I had the opportunity to work on an engaging web experience: decorating portraits from the Italian Renaissance. This experience was designed to be showcased at the museum during the Baccanight event. For this project, I collaborated with a partner on the development. I handled the back-end, including API management, databases, and hosting, as well as the front-end by creating filters for the paintings."
 		techno ="Express, NodeJs, pg-promisse"
-		projectSrc="https://bacchanight.osc-fr1.scalingo.io/"
+		
 		githubSrc="https://github.com/DrissDL/Bacchanight" >
 		<Tag color = #3300FF text="Development " ></Tag>
 		</Project>
