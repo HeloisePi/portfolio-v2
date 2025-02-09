@@ -109,18 +109,12 @@
 	</div>
 	<div class="projects" id="projects">
 		<h3>My Projects</h3>
-		<img class="stain5 bis" src="images/stain/stain5.webp" alt="stain">
-		<img class="stain4 bis" src="images/stain/stain4.webp" alt="stain">
-
-		<img class="stain5 bis2" src="images/stain/stain5.webp" alt="stain">
-		<img class="stain4 bis2" src="images/stain/stain2.webp" alt="stain" />
-
 		<Project
 		title = "Silver Geek"
 		imgSrc = 'images/project/silvergeek.webp'
 		description = "During a project in my training program, I had the opportunity to collaborate with an organization called Silver Geek. This association fights against the digital divide by helping elderly people integrate into the world of video games. Together with a team of six others, we worked on an application designed to manage structures and workshops. My role was versatile: I participated in designing the database structure, managed data extraction, and contributed to part of the front-end development. This experience allowed me to apply my skills in mobile web development while contributing to a meaningful initiative for digital inclusion among the elderly."
 		techno ="Ruby on rails, Tailwind"
-		githubSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
+		projectSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
 		<Tag color = #3300FF text="Development " ></Tag>
 		</Project>
 
@@ -132,7 +126,7 @@
 		I had the opportunity to work on an engaging web experience: decorating portraits from the Italian Renaissance. This experience was designed to be showcased at the museum during the Baccanight event. For this project, I collaborated with a partner on the development. I handled the back-end, including API management, databases, and hosting, as well as the front-end by creating filters for the paintings."
 		techno ="Express, NodeJs, pg-promisse"
 		
-		githubSrc="https://github.com/DrissDL/Bacchanight" >
+		projectSrc="https://github.com/DrissDL/Bacchanight" >
 		<Tag color = #3300FF text="Development " ></Tag>
 		</Project>
 
