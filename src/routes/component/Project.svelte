@@ -1,60 +1,59 @@
 <script>
+    import { onMount } from 'svelte';
+    import Swiper from 'swiper';
+    import 'swiper/css';
+    import Tag from './Tag.svelte';
+
+
     export let title;
-    export let imgSrc;
+
+    export let istagFrontend;
+    export let istagBackend;
+    export let istagPrototype;
+    export let istaguserTest;
+
     export let description;
     export let techno;
     export let projectSrc;
     export let githubSrc;
 
-//     let constrain = 100;
-//     let imgProjectContainer;
+    let swiper;
 
-//   function transforms(x, y, imgProject) {
-//     let calcX = -(y - imgProject.top - (imgProject.height / 2)) / constrain;
-//     let calcY = (x - imgProject.left - (imgProject.width / 2)) / constrain;
-//     return "perspective(150px) " +
-//         "rotateX(" + calcX + "deg) " +
-//         "rotateY(" + calcY + "deg) ";
-//   }
-
-//   function transformElement(el, xyEl) {
-//     let x = xyEl[0];
-//     let y = xyEl[1];
-//     let imgProject = xyEl[2];
-
-//     el.style.transform = transforms(x, y, imgProject);
-//   }
-
-//   let handleMouseMove = (e) => {
-//     let xy = [e.clientX, e.clientY];
-//     let imgProject = imgProjectContainer.getBoundingClientRect();
-//     let position = xy.concat([imgProject]);
-
-//     window.requestAnimationFrame(() => {
-//       transformElement(imgProjectContainer, position);
-//     });
-//   };
-
-//   let handleMouseLeave = () => {
-//     // Réinitialiser la transformation lorsque la souris quitte imgProjectContainer
-//     imgProjectContainer.style.transform = "rotateX(0) rotateY(0)";
-
-    
-// }
-
-  
+    onMount(() => {
+        swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    });
 </script>
 
 <article class="contenaire" appear>
     <div class="titleTag">
         <h4 class="bold">{title}</h4>
-        <div class="tags">
-            <slot></slot>
+        <div class="tags ">
+            { #if istagBackend }
+                <Tag color = #3300FF text="Backend " ></Tag>
+            {/if}
+            { #if istagFrontend }
+                <Tag color = #FF6BEB text="Frontend" ></Tag>
+            {/if}
+            { #if istagPrototype }
+                <Tag color = #B8FF6B text="Prototype " ></Tag>
+            {/if}
+            { #if istaguserTest }
+                <Tag color = #FDFF6B text="User Test " ></Tag>
+            {/if}
         </div>
     </div>
     <div class="imgDescription">
-        <a class="imgProject" target="blank" href="{projectSrc}"><img src="{imgSrc}" alt="Project"></a>
-        <!--  bind:this={imgProjectContainer}  on:mousemove="{handleMouseMove}" on:mouseleave={handleMouseLeave} -->
+        <div class="contenaireswiperText">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <slot></slot>
+                </div>
+            </div>
+            <p>Swipe right to see more</p>
+        </div>
         <div class="description">
             <p class="text">{description}</p>
             <div class="technoLink">
@@ -163,4 +162,132 @@
              width: 74vw; 
         }
     }
+
+    .contenaireswiperText{
+        width: fit-content;
+        height: fit-content;
+    }
+
+
+
+    .swiper {
+      width: 100%;
+      max-width: 1007.18px;
+      height: 651.65px;
+  }
+
+  .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .swiper .swiper-slide img {
+    width: 100% !important;
+    object-fit: fill;
+    height: auto;
+
+  }
+
+  @media screen and (max-width: 2058px) {  
+            .swiper, .swiper-slide img {
+            max-width: 750px;
+            height: 500px;
+
+        }
+    }
+    @media screen and (max-width: 1903px) {  
+            .swiper {
+            max-width: 700px;
+
+        }
+    }
+    @media screen and (max-width: 1903px) {  
+            .swiper {
+            max-width: 650px;
+
+        }
+    }
+
+    @media screen and (max-width: 1649px) {  
+            .swiper {
+            max-width: 600px;
+
+        }
+    }
+    @media screen and (max-width: 1530px) {  
+            .swiper {
+            max-width: 550px;
+
+        }
+    }
+
+    @media screen and (max-width: 1431px) {  
+            .swiper {
+            max-width: 500px;
+
+        }
+    }
+
+    @media screen and (max-width: 1300px) {  
+            .swiper {
+            max-width: 700px;
+
+        }
+    }
+
+    @media screen and (max-width: 874px) {  
+            .swiper {
+            max-width: 600px;
+
+        }
+    }
+    @media screen and (max-width: 774px) {  
+            .swiper {
+            max-width: 500px;
+            height: 350px;
+
+        }
+    }
+    @media screen and (max-width: 625px) {  
+            .swiper {
+            max-width: 400px;
+            height: 250px;
+
+        }
+    }
+    @media screen and (max-width: 500px) {  
+            .swiper {
+            max-width: 350px;
+
+        }
+    }
+    @media screen and (max-width: 440px) {  
+            .swiper {
+            max-width: 300px;
+            height: 200px;
+
+        }
+    }
+    @media screen and (max-width: 380px) {  
+            .swiper {
+            max-width: 250px;
+            height: 100px;
+
+        }
+    }
+    @media screen and (max-width: 320px) {  
+            .swiper {
+            max-width: 200px;
+
+        }
+    }
+    @media screen and (max-width: 260px) {  
+            .swiper {
+            max-width: 150px;
+
+        }
+    }
+    
+
 </style>

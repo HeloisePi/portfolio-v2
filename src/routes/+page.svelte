@@ -108,108 +108,162 @@
 		
 	</div>
 	<div class="projects" id="projects">
-		<h3>My Projects</h3>
+		<h3>Some of my Projects</h3>
 		<Project
-		title = "Silver Geek"
-		imgSrc = 'images/project/silvergeek.webp'
-		description = "During a project in my training program, I had the opportunity to collaborate with an organization called Silver Geek. This association fights against the digital divide by helping elderly people integrate into the world of video games. Together with a team of six others, we worked on an application designed to manage structures and workshops. My role was versatile: I participated in designing the database structure, managed data extraction, and contributed to part of the front-end development. This experience allowed me to apply my skills in mobile web development while contributing to a meaningful initiative for digital inclusion among the elderly."
-		techno ="Ruby on rails, Tailwind"
-		projectSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
-		<Tag color = #3300FF text="Development " ></Tag>
+		title = "Cat World"
+		description = "I am currently developing, in collaboration, a social network where users embody a 3D cat on a planet. Users can add friends and send personalized letters. During this project, I explored testing with Jest, improved my skills in React Three, and gained valuable experience in backend development using Express."
+		techno ="express, React, Threejs, Typescript, Jest"
+		projectSrc="https://github.com/Safirl/cat-world"
+		istagFrontend
+		istagBackend
+		istagPrototype
+		istaguserTest
+		>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/catWorld/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/catWorld/2.jpg" alt="">
+		</div>
+
 		</Project>
+
+
+		<Project
+		title = "smash"
+		description = "I developed a community-driven application that helps users identify true vs. false current events by seeing results from their friends. I gained skills in building full-stack applications, managing backend controllers and APIs, and handling routing. I also designed responsive front-end interfaces and conducted user interviews to gather feedback for improvements. "
+		techno ="Laravel, blade, SQL"
+		projectSrc="https://github.com/Safirl/Flip"
+		istagFrontend
+		istagBackend
+		istagPrototype
+		>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/smash/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/smash/2.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/smash/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/smash/4.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/smash/5.jpg" alt="">
+		</div>
+		</Project>
+
+		<Project
+		title = "Nuit au musée : La réserve"
+		description = " I had the opportunity to work again for the Musba, this time for the Night of the Museums. I had to create an interactive application for a reserve on a Dimension tablet with a resolution of 3840 x 2160. I was able to push myself to use object-oriented programming and gain experience with interactive development. "
+		techno ="Vue.js, JavaScript with object-oriented programming"
+		projectSrc="https://github.com/nuit-musee-musba/experience-2025"
+		istagFrontend
+		>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/2.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/4.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/5.jpg" alt="">
+		</div>
+		</Project>
+
+		<Project
+		title = "Just a Carrot"
+		description = "I developed a game using Godot, where the player controls a carrot trying to escape. During the development process, I gained extensive experience in programming with Godot, writing custom scripts to implement core game mechanics such as player movement, collision detection, and game physics. I also learned how to manage sprites, including handling animations, sprite sheets, and optimizing asset performance. On top of that, I worked on game logic for things like win/loss conditions, timers, and dynamic difficulty adjustments. My development skills were further enhanced through debugging and refining the gameplay to ensure smooth performance and an enjoyable user experience. "
+		techno ="Godot, C#"
+		projectSrc="https://github.com/Safirl/carot-game"
+		istagFrontend
+		istagBackend
+		>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/justacarrot/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/justacarrot/2.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/justacarrot/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/justacarrot/4.jpg" alt="">
+		</div>
+		</Project>
+
 
 
 		<Project 
 		title = "Re:Naissance"
-		imgSrc = 'images/project/renaissance.webp'
 		description = "
 		I had the opportunity to work on an engaging web experience: decorating portraits from the Italian Renaissance. This experience was designed to be showcased at the museum during the Baccanight event. For this project, I collaborated with a partner on the development. I handled the back-end, including API management, databases, and hosting, as well as the front-end by creating filters for the paintings."
+		istagFrontend
+		istagBackend
+		istagPrototype
 		techno ="Express, NodeJs, pg-promisse"
-		
 		projectSrc="https://github.com/DrissDL/Bacchanight" >
-		<Tag color = #3300FF text="Development " ></Tag>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/re-naissance/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/re-naissance/2.jpg" alt="">
+		</div>
 		</Project>
 
 		<Project
-		title ="Animation front-end"
-		imgSrc ="images/project/animation.webp"
-    	description ="I was challenged to code a portfolio within a week. To accomplish this task, I chose the Astro framework, which I considered to be the most optimized for this type of site. Additionally, I integrated the GSAP library for animations, a decision that proved to be highly beneficial in terms of efficiency. Through this project, I was able to acquire new skills in using libraries and creating animations, significantly enhancing my technical expertise."
-     	techno ="Astro, Scss, Gsap"
+		title ="Gsap Website"
+		istagFrontend
+		description ="I was challenged to code a portfolio within a week. To accomplish this task, I chose the Astro framework, which I considered to be the most optimized for this type of site. Additionally, I integrated the GSAP library for animations, a decision that proved to be highly beneficial in terms of efficiency. Through this project, I was able to acquire new skills in using libraries and creating animations, significantly enhancing my technical expertise."
+		techno ="Astro, Scss, Gsap"
     	projectSrc ="https://challengethrive.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/challenge">
-		<Tag color = #BD00FF text="Design " ></Tag>
-		<Tag color = #3300FF text="Development " ></Tag>
+
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/gsapwebsite/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/gsapwebsite/2.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/gsapwebsite/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/gsapwebsite/4.jpg" alt="">
+		</div>
 	</Project>
 
-	<Project
-		title ="Portfolio"
-		imgSrc ="images/project/hugo.webp"
-    	description ="I had the opportunity to develop a classmate's portfolio. The challenge? Integrating multiple animations, carousels, and filters. I had to incorporate these elements based on his design mockup in Figma. This experience allowed me to apply my web development skills while meeting my classmate's specific design and interactivity needs."
-     	techno ="Svelte, Scss, Gsap, Lenis"
-    	projectSrc ="https://hugomensah.netlify.app/"
-    	githubSrc= "https://github.com/HeloisePi/Hugo-Portfolio">
-		<Tag color = #3300FF text="Development " ></Tag>
-	</Project>
 
 
-	<Project 
-		title ="Épopée Graphique"
-		imgSrc ="images/project/epopeegraphique.webp"
-    	description ="Épopée Graphique is much more than just a simple project at Prime à Bord. Behind this seemingly ordinary page lies my first steps in the 'back of the front.' I worked hard to automate the display of images. As soon as they land in the designated folder, they automatically appear without needing to be called. It's not just a page, it's a dynamic experience where the magic happens effortlessly. Welcome to the world of L'Épopée Graphique, where simplicity meets automation for a result that speaks for itself."
-     	techno ="Svelte, Js"
-    	projectSrc ="https://epopeegraphique.fr/"
-    	githubSrc= "https://github.com/HeloisePi/teamPinpin">
-		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Development " ></Tag>
-	</Project>
-	<Project 
-		title ="Bild"
-		imgSrc ="images/project/bild.webp"
-    	description ="During my training, I had the opportunity to collaborate with PtitDOm, an organization dedicated to supporting children with Autism Spectrum Disorder (ASD). I contributed to the creation of a web application aimed at simplifying and digitizing the picture games used in the A.B.A. (Applied Behavior Analysis) approach. The goal was to facilitate vocabulary learning and enhance communication.
-Throughout this two-week project, I played a key role in integrating and participating in the design of the mockup using Svelte and Tailwind technologies. The tool choices were focused on ease of use, allowing for faster project development."
-     	techno ="Svelte, Tailwind, Ts, Js"
-    	projectSrc ="https://bild.ptitdom.fr/"
-    	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
-		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Development " ></Tag>
-	</Project>
-	<Project 
-		title ="Frynge"
-		imgSrc ="images/project/frynge.webp"
-    	description ="I had the privilege of participating in a three-day hackathon, Reboot2023. Our team was honored with a nomination for the Solidarity Award. It was a truly challenging experience in terms of speed. I had to start development alongside the design of the mockups, which led me to code in a way that made the content easily editable. It was an intense experience where the pressure of time pushed us to give our best."
-     	techno ="Svelte"
-    	projectSrc ="https://frynge.netlify.app/"
-    	githubSrc= "https://github.com/EmmaGuillaume/ptitdom">
-		<Tag color = #BD00FF text="Design "/>
-		<Tag color = #3300FF text="Development " ></Tag>
-	</Project>
 
 	<Project 
 		title ="Interactive Card"
-		imgSrc ="images/project/card.webp"
+		istagFrontend
     	description ="Driven by a spirit of self-learning, I chose to take on a challenge on MentorChallenge. This experience provided me with a valuable opportunity to deepen my understanding of JavaScript and refine my coding organization skills. Guided by the teachings from Robert C. Martin's book 'Clean Code,' I reviewed and optimized the names of my variables, classes, and functions, among others. By rethinking the structure of my functions, I created a more efficient organization, allowing me to add or remove features with greater flexibility."
-     	techno ="Html, Css, JS"
+     	techno ="Html, Css, Javascript"
     	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
-		<Tag color = #3300FF text="Development " ></Tag>
-	</Project>
-	<Project 
-		title ="Pull MMI"
-		imgSrc ="images/project/pull.webp"
-    	description ="I had the opportunity to participate in a competition organized by the Student Bureau (BDE) of my school, and I was fortunate to win. This experience allowed me to fully express my creativity and apply my skills using tools such as Figma, Illustrator, and Adobe. It was a rewarding opportunity that allowed me to showcase my talents and preferences in graphic design."
-     	techno ="Figma Illustrator Photoshop"
-    	projectSrc ="https://www.figma.com/file/aoTDUum6SAbmo4qxIWlNsh/Sweat?type=design&node-id=0%3A1&mode=design&t=2RWCUPgRVeDKdUUO-1">
-		<Tag color = #BD00FF text="Design "/>
-	</Project>
-	<Project 
-		title ="Redesign and recoding of the Printing Museum"
-		imgSrc ="images/project/musee.webp"
-    	description ="Here is my very first website, the result of a collaboration within a group of 4 people, aimed at redesigning a museum's website. This experience allowed me to acquire the fundamentals of HTML, CSS, and even JavaScript. Additionally, I was able to explore the nuances of responsive design by using media queries, further expanding my skills to ensure an optimal user experience across different platforms and devices."
-     	techno ="Html, Css, JS"
-    	projectSrc ="https://vrai-musee-imprimerie-nantes.netlify.app/"
-    	githubSrc= "https://github.com/Safirl/imprimerie">
-		<Tag color = #BD00FF text="Design " ></Tag>
-		<Tag color = #3300FF text="Development " ></Tag>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/interactivecard/1.jpg"  alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/interactivecard/2.jpg"  alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/interactivecard/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/interactivecard/4.jpg" alt="">
+		</div>
 	</Project>
 	</div>
 	<!-- <Contact /> -->

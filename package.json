@@ -29,6 +29,7 @@
   "background_color": "#ffffff",
   "dependencies": {
     "@studio-freight/lenis": "^1.0.39",
-    "blotter": "^2.1.0"
+    "blotter": "^2.1.0",
+    "swiper": "^11.2.3"
   }
 }
