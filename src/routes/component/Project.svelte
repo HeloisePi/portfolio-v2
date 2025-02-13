@@ -52,7 +52,7 @@
                 <slot></slot>
                 </div>
             </div>
-            <p>Swipe right to see more</p>
+            <p class="testSwiper">  Swipe right to see more > </p>
         </div>
         <div class="description">
             <p class="text">{description}</p>
@@ -189,6 +189,12 @@
 
   }
 
+  .testSwiper{
+    width: 100%;
+    text-align: end;
+    margin-bottom: Orem;
+  }
+
   @media screen and (max-width: 2058px) {  
             .swiper, .swiper-slide img {
             max-width: 750px;
@@ -233,6 +239,9 @@
             .swiper {
             max-width: 700px;
 
+        }
+        .testSwiper{
+        margin-bottom: 2rem;
         }
     }
 
