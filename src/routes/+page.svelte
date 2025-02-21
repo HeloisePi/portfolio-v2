@@ -113,7 +113,8 @@
 		title = "Cat World"
 		description = "I am currently developing, in collaboration, a social network where users embody a 3D cat on a planet. Users can add friends and send personalized letters. During this project, I explored testing with Jest, improved my skills in React Three, and gained valuable experience in backend development using Express."
 		techno ="express, React, Threejs, Typescript, Jest"
-		projectSrc="https://github.com/Safirl/cat-world"
+		projectSrc="https://frontend-cat-world.osc-fr1.scalingo.io/account"
+		githubSrc="https://github.com/Safirl/cat-world"
 		istagFrontend
 		istagBackend
 		istagPrototype
