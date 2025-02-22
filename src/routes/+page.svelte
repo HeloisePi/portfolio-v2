@@ -75,7 +75,7 @@
 		<Professionalex
 		company ="SEG2 Inov ( French Tech ) "
     	date="From 05/2024 to  18/08/2024"
-    	postTitle="Devops /  UI Design">
+    	postTitle="Stage Devops /  UI Design">
 		During my internship at Seg2inov, I had the opportunity to design multiple interfaces for the web version of S2cash. I also took my first steps with WordPress, gaining initial experience in web development and content management. This experience allowed me to strengthen my design skills while exploring new development tools.
 		</Professionalex>
 
@@ -83,7 +83,7 @@
 		<Professionalex
 		company ="MMI - Cybersecurity"
     	date="From 22/01/2024 to  26/01/2024"
-    	postTitle="MMI - Cybersecurity">
+    	postTitle="Project">
 		During a project in my training program, I had the opportunity to collaborate with the police on the development of an application designed to assist them during interventions. I was responsible for securing the hosting environment and developing the front-end interface. This experience allowed me to apply my skills in cybersecurity, front-end development, and user interface design while contributing to a project with a tangible impact on public safety.
 		</Professionalex>
 
@@ -126,6 +126,12 @@
 		<div class="swiper-slide">
 			<img style="width:100%;" src="/images/project/catWorld/2.jpg" alt="">
 		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/catWorld/3.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/catWorld/4.jpg" alt="">
+		</div>
 
 		</Project>
 
@@ -160,7 +166,8 @@
 		title = "Nuit au musée : La réserve"
 		description = " I had the opportunity to work again for the Musba, this time for the Night of the Museums. I had to create an interactive application for a reserve on a Dimension tablet with a resolution of 3840 x 2160. I was able to push myself to use object-oriented programming and gain experience with interactive development. "
 		techno ="Vue.js, JavaScript with object-oriented programming"
-		projectSrc="https://github.com/nuit-musee-musba/experience-2025"
+		projectSrc="https://nuit-du-musba-2025.netlify.app/experiences/1-hub/index.html"
+		githubSrc="https://github.com/nuit-musee-musba/experience-2025"
 		istagFrontend
 		>
 		<div class="swiper-slide">
@@ -219,6 +226,26 @@
 		<div class="swiper-slide">
 			<img style="width:100%;" src="/images/project/re-naissance/2.jpg" alt="">
 		</div>
+		</Project>
+
+		<Project 
+		title = "SilverGeek"
+		description = "
+		During a project in my training program, I had the opportunity to collaborate with an organization called Silver Geek. This association fights against the digital divide by helping elderly people integrate into the world of video games. Together with a team of six others, we worked on an application designed to manage structures and workshops. My role was versatile: I participated in designing the database structure, managed data extraction, and contributed to part of the front-end development. This experience allowed me to apply my skills in mobile web development while contributing to a meaningful initiative for digital inclusion among the elderly."
+		istagFrontend
+		istagBackend
+		techno ="Ruby on rails, Tailwind"
+		projectSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/silvergeek/1.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/silvergeek/2.jpg" alt="">
+		</div>
+		<div class="swiper-slide">
+			<img style="width:100%;" src="/images/project/silvergeek/3.jpg" alt="">
+		</div>
+		
 		</Project>
 
 		<Project
