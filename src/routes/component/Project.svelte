@@ -7,15 +7,15 @@
 
     export let title;
 
-    export let istagFrontend;
-    export let istagBackend;
-    export let istagPrototype;
-    export let istaguserTest;
+    export let istagFrontend = false;
+    export let istagBackend = false;
+    export let istagPrototype = false;
+    export let istaguserTest  = false;
 
     export let description;
     export let techno;
     export let projectSrc;
-    export let githubSrc;
+    export let githubSrc  = false;
 
     let swiper;
 

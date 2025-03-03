@@ -1,158 +1,101 @@
-//      COLOR
-
-$violet: #E8D7FF; 
+/* COLORS */
+$violet: #E8D7FF;
 $green: #EEFFD7;
 $blue: #3300FF;
 $darkViolet: #BD00FF;
 $grey: #E8E8E8;
 
-//      FONT FAMILY
-
+/* FONT FAMILY */
 @font-face {
-    font-family: 'SuisseIntl-Medium';
-    src: url(/src/assets/SuisseIntl-Medium.ttf);
+    font-family: 'SuisseIntl';
+    src: url('/src/assets/SuisseIntl-Regular.woff2') format('woff2'),
+         url('/src/assets/SuisseIntl-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'SuisseIntl-Regular';
-    src: url(/src/assets/SuisseIntl-Regular.ttf);
+    font-family: 'SuisseIntl';
+    src: url('/src/assets/SuisseIntl-Light.woff2') format('woff2'),
+         url('/src/assets/SuisseIntl-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'SuisseIntl-Bold';
-    src: url(/src/assets/SuisseIntl-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'SuisseIntl-Light';
-    src: url(/src/assets/SuisseIntl-Light.ttf);
-}
-
-@font-face {
-    font-family: 'SuisseIntl-SemiBold';
-    src: url(/src/assets/SuisseIntl-SemiBold.ttf);
-}
-
-//      FONT STYLE & STYLE 
-
-h1{
-    font-family: 'SuisseIntl-Regular';
-    //font-size: 6rem;
+/* FONT STYLE & STYLES */
+h1 {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 400; /* Regular */
     font-size: 112px;
 }
 
-h2{
-    font-family: 'SuisseIntl-Light' ;
+h2 {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 48px;
 }
 
-h3{
-    font-family: 'SuisseIntl-Medium' ;
+h3 {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 400; /* Regular */
     font-size: 32px;
 }
 
-h4{
-    font-family: 'SuisseIntl-Light' ;
+h4 {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 1.25rem;
 }
 
-h5{
-    font-family: 'SuisseIntl-Light' ;
+h5 {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 0.875rem;
 }
 
-p{
-    font-family: 'SuisseIntl-Light' ;
+p {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 1.25rem;
 }
+
+/* RESPONSIVE */
 @media screen and (max-width: 500px) {
-    p, h5{
+    p, h5 {
         font-size: 0.75rem;
     }
-    h4{
+    h4 {
         font-size: 1rem;
     }
 }
 
-.bold{
-    font-family:  'SuisseIntl-Regular';
+/* TEXT UTILITIES */
+.bold {
+    font-weight: 400; /* Regular */
 }
 
-
-.underline{
+.underline {
     width: fit-content;
     position: relative;
+    
     &:hover {
         &::after {
-          transform-origin: left;
-          transform: scaleX(1);
+            transform-origin: left;
+            transform: scaleX(1);
         }
-      }
+    }
+
     &::after {
-      content: "";
-      border-bottom: solid 1px rgb(0, 0, 0);
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-      width: 100%;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 0.25s;
+        content: "";
+        border-bottom: solid 1px rgb(0, 0, 0);
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.25s;
     }
 }
- 
-
-// @keyframes semiScrollTop {
-//     0% {
-//         transform: translate(0vw, 0vh)
-
-//         }
-//     50% {
-//         transform: translate(0vw, -3vh);
-//     }
-//     100% {
-//         transform: translate(0vw, 0vh)
-//         }
-
-// }
-
-// @keyframes semiScrollLeft {
-//     0% {
-//         transform: translate(0vw, 0vh)
-
-//         }
-//     50% {
-//         transform: translate(19vw, 0vh);
-//     }
-//     100% {
-//         transform: translate(0vw, 0vh)
-//         }
-
-// }
-
-// @keyframes semiScrollRight{
-//     0% {
-//         transform: translate(0vw, 0vh)
-
-//         }
-//     50% {
-//         transform: translate(-19vw, 0vh);
-//     }
-//     100% {
-//         transform: translate(0vw, 0vh)
-//         }
-
-// }
-
-html.lenis {
-    height: auto;
-  }
-  .lenis.lenis-smooth {
-    scroll-behavior: auto;
-  }
-  .lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-  }
-  .lenis.lenis-stopped {
-    overflow: hidden;
-  }

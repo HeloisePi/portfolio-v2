@@ -12,7 +12,7 @@
     <div class="description">
         <p>Hi there! I'm Héloïse.
              <br> I am a student in the Bachelor's in Multimedia and Internet Professions.
-             <span class="">I am currently doing a work-study program at seg2inov.</span></p>
+            I am currently doing a work-study program at seg2inov.</p>
              <p>I enjoy drawing, playing the violin, and kick boxing. I am known to be serious, curious, and creative.</p>
               <p>The tools I use in programming: <br> Svelte, React, Astro, Tailwind, Scss, Ruby on Rails</p>
                <p>I am also looking for a work-study program starting in September 2025.</p>

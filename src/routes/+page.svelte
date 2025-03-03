@@ -29,23 +29,6 @@
 		scrolled = true;
 		handleAppearance();
 	  });
-  
-	  // Ajout de l'Intersection Observer pour les <mark>
-	  const markers = [...document.querySelectorAll('mark')];
-	  const observer = new IntersectionObserver(entries => {
-		entries.forEach(entry => {
-		  if (entry.intersectionRatio > 0) {
-			entry.target.style.animationPlayState = 'running';
-			observer.unobserve(entry.target);
-		  }
-		});
-	  }, {
-		threshold: 0.8
-	  });
-  
-	  markers.forEach(mark => {
-		observer.observe(mark);
-	  });
 	});
   </script>
   
@@ -96,8 +79,6 @@
 		</Professionalex>
 
 
-
-		<img class="stain4" src="images/stain/stain4.webp" alt="stain">
 		<Professionalex
 		company="Fondation John Bost"
 		date= "2018"
@@ -121,16 +102,16 @@
 		istaguserTest
 		>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/catWorld/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/catWorld/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/catWorld/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/catWorld/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/catWorld/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/catWorld/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/catWorld/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/catWorld/4.webp" alt="">
 		</div>
 
 		</Project>
@@ -146,19 +127,19 @@
 		istagPrototype
 		>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/smash/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/smash/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/smash/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/smash/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/smash/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/smash/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/smash/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/smash/4.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/smash/5.jpg" alt="">
+			<img style="width:100%;" src="/images/project/smash/5.webp" alt="">
 		</div>
 		</Project>
 
@@ -171,19 +152,19 @@
 		istagFrontend
 		>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/NuitDesMusee/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/NuitDesMusee/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/NuitDesMusee/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/NuitDesMusee/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/4.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/NuitDesMusee/5.jpg" alt="">
+			<img style="width:100%;" src="/images/project/NuitDesMusee/5.webp" alt="">
 		</div>
 		</Project>
 
@@ -196,16 +177,16 @@
 		istagBackend
 		>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/justacarrot/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/justacarrot/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/justacarrot/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/justacarrot/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/justacarrot/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/justacarrot/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/justacarrot/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/justacarrot/4.webp" alt="">
 		</div>
 		</Project>
 
@@ -221,10 +202,10 @@
 		techno ="Express, NodeJs, pg-promisse"
 		projectSrc="https://github.com/DrissDL/Bacchanight" >
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/re-naissance/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/re-naissance/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/re-naissance/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/re-naissance/2.webp" alt="">
 		</div>
 		</Project>
 
@@ -237,13 +218,13 @@
 		techno ="Ruby on rails, Tailwind"
 		projectSrc="https://github.com/groupe-1-silver-geek/silvergeek" >
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/silvergeek/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/silvergeek/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/silvergeek/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/silvergeek/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/silvergeek/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/silvergeek/3.webp" alt="">
 		</div>
 		
 		</Project>
@@ -257,16 +238,16 @@
     	githubSrc= "https://github.com/HeloisePi/challenge">
 
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/gsapwebsite/1.jpg" alt="">
+			<img style="width:100%;" src="/images/project/gsapwebsite/1.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/gsapwebsite/2.jpg" alt="">
+			<img style="width:100%;" src="/images/project/gsapwebsite/2.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/gsapwebsite/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/gsapwebsite/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/gsapwebsite/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/gsapwebsite/4.webp" alt="">
 		</div>
 	</Project>
 
@@ -281,16 +262,16 @@
     	projectSrc ="https://interactive-card-heloisepi.netlify.app/"
     	githubSrc= "https://github.com/HeloisePi/interactive-card-details-form-main">
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/interactivecard/1.jpg"  alt="">
+			<img style="width:100%;" src="/images/project/interactivecard/1.webp"  alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/interactivecard/2.jpg"  alt="">
+			<img style="width:100%;" src="/images/project/interactivecard/2.webp"  alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/interactivecard/3.jpg" alt="">
+			<img style="width:100%;" src="/images/project/interactivecard/3.webp" alt="">
 		</div>
 		<div class="swiper-slide">
-			<img style="width:100%;" src="/images/project/interactivecard/4.jpg" alt="">
+			<img style="width:100%;" src="/images/project/interactivecard/4.webp" alt="">
 		</div>
 	</Project>
 	</div>

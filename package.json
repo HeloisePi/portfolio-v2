@@ -19,7 +19,6 @@
     "@neoconfetti/svelte": "^1.0.0",
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
-    "node-sass": "^9.0.0",
     "sass": "^1.69.2",
     "svelte": "^4.0.5",
     "vite": "^4.4.2"

@@ -1,64 +1,4 @@
 <script>
-    import { onMount } from "svelte";
-
-    onMount(() => {
-         if (typeof Blotter !== "undefined") {
-        //     // Sélectionner le texte à distordre
-        //     const textElement = document.getElementById("distorted-text");
-        //     const textContent = textElement.innerText;
-        //     const isSmallScreen = window.innerWidth < 580;
-        //     const textSize = isSmallScreen ? 24 : 48; // Taille conditionnelle
-
-
-        //     // Créer un objet Blotter.Text avec le contenu du texte sélectionné
-        //     const text = new Blotter.Text("- Dev Fullstack", {
-        //         family: "SuisseIntl-Light",
-        //         size: textSize,
-        //         fill: "#868686",
-        //         paddingLeft: 0,
-        //         paddingRight: 0
-        //     });
-
-        //     const material = new Blotter.SlidingDoorMaterial();
-        //     material.uniforms.uSpeed.value = 0.25;
-
-        //     const blotter = new Blotter(material, {
-        //         texts: text
-        //     });
-
-            // // Remplacer le contenu de l'élément avec l'effet Blotter
-            // const scope = blotter.forText(text);
-            // scope.appendTo(textElement);
-
-            // Arrêter l'animation après 2 secondes
-            // setTimeout(() => {
-            //     material.uniforms.uSpeed.value = 0; // Met la vitesse à 0 pour arrêter l'animation
-            // }, 2000);
-
-            // Sélectionner les éléments <mark> à observer
-            const markers = [...document.querySelectorAll('mark')];
-
-            // Créer un nouvel Intersection Observer
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.intersectionRatio > 0) {
-                        // Activer l'animation de surlignage
-                        entry.target.style.animationPlayState = 'running';
-                        observer.unobserve(entry.target); // Ne plus observer une fois surligné
-                    }
-                });
-            }, {
-                threshold: 0.8
-            });
-
-            // Observer chaque élément <mark>
-            markers.forEach(mark => {
-                observer.observe(mark);
-            });
-        } else {
-            console.error("Blotter is not defined. Ensure the CDN is properly loaded.");
-        }
-    });
 </script>
 
 <section>
@@ -75,7 +15,7 @@
     <div class="imgDescp">
         <div class="portrait">
             <img class="portraitImg" src="/images/portrait.webp" alt=" photographie de Héloïse Pingitore">
-            <img class="stain" src="/images/stain.png" alt="tache violette">
+            <img class="stain" src="/images/stain.webp" alt="tache violette">
         </div>
 
         <div class="description">
@@ -134,12 +74,13 @@
 
     .portrait {
         position: relative;
-        padding-top: 5rem;
+        padding-top: 10vh;
         height: 100%;
 
         .portraitImg {
             z-index: 1;
             position: relative;
+            height: 50vh;
         }
         .stain {
             position: absolute;
@@ -173,6 +114,7 @@
             height: 100%;
 
             .portraitImg {
+                height: fit-content;
                 z-index: 1;
             }
 

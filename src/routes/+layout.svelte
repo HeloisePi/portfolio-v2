@@ -2,31 +2,7 @@
   import "../app.scss";
   import Headers from "./component/Headers.svelte";
   import "./styles.css";
-  // import Lenis from '@studio-freight/lenis';
-  // import { lenisStore as lenis, setLenisStore } from '$lib/stores/lenis.ts';
 
-  // $: if (browser && $lenis && hash) {
-	// 	const target = document.querySelector(hash);
-	// 	$lenis.scrollTo(target, { offset: 0 });
-	// }
-
-	// onMount(async () => {
-
-	// 	window.history.scrollRestoration = 'manual';
-	// 	window.scrollTo(0, 0);
-
-	// 	const lenisInstance = new Lenis();
-	// 	setLenisStore(lenisInstance);
-
-
-	// 		$lenis?.destroy();
-	// 		// setLenisStore(null);
-
-  // });
-
-	// useFrame((time) => {
-	// 	$lenis?.raf(time);
-	// });
 </script>
   <Headers />
 <div class="app">
@@ -65,7 +41,7 @@
   }
 
   footer .links p{
-    font-family: "SuisseIntl-Medium";
+    font-family: "SuisseIntl";
     color: black;
     white-space: nowrap;
     
@@ -78,6 +54,7 @@
   border-bottom: #B5B5B5 solid 1px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  gap: 2rem;
 }
 
 .site{
@@ -88,7 +65,7 @@
 
 }
 .site p{
-  color: #B5B5B5;
+  color: #525252;
 }
 
 @media screen and (max-width: 1100px) {
