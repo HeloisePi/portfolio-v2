@@ -114,7 +114,7 @@
             height: 100%;
 
             .portraitImg {
-                height: fit-content;
+                height: auto;
                 z-index: 1;
             }
 
